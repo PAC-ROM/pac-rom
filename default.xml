@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://android.googlesource.com" name="aosp"/>
+  <remote fetch=".." name="github" review="review.cyanogenmod.com"/>
+  <remote fetch="https://git@bitbucket.org/paranoidandroid/" name="paranoid"/>
+  <remote fetch="ssh://git@github.com" name="private"/>
+  
+  <default remote="github" revision="refs/heads/jellybean" sync-j="4"/>
+
+  <!-- PAC manifest v15.0.0 | 25-Oct-2012-->
+
+  <!-- CM -->
+  <project groups="default" name="CyanogenMod/android_abi_cpp" path="abi/cpp" revision="eb789ea833d8d800662b67914d9c1785a58c2caa"/>
+  <project groups="default" name="CyanogenMod/android_bionic" path="bionic" revision="c24859f3548a2599ef2b3cf304ccb02e101312d3"/>
+  <project groups="default" name="CyanogenMod/android_bootable_bootloader_legacy" path="bootable/bootloader/legacy" revision="b1fde5cd7d5158b8e6876139ca76a341d0e49708"/>
+  <project groups="default" name="CyanogenMod/android_bootable_diskinstaller" path="bootable/diskinstaller" revision="d2a0ffa065dbb98e9acbf873dff5eb129bf2be71"/>
+  <project groups="default" name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" revision="58cd3b9e1a1bc291ab709a638f4ef115800e6440"/>
+  <project groups="default" name="CyanogenMod/android_build" path="build" revision="d2c281b02a38bbaf832b8c20b89c18b77fee8e2c">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+  <project groups="default" name="CyanogenMod/android_cts" path="cts" revision="68d4d453288c4d4a5790e7d700244667878bc526"/>
+  <project groups="default" name="CyanogenMod/android_dalvik" path="dalvik" revision="746918a11788595441353e77cad60f37dcfcc6e8"/>
+  <project groups="default" name="CyanogenMod/android_development" path="development" revision="cfda628f0c0fed82475e02d31d02d4a27669ce83"/>
+  <project groups="default" name="CyanogenMod/android_device_common" path="device/common" revision="8ffd5f8087a380e1daa9000a12908f83d376a6da"/>
+  <project groups="default" name="CyanogenMod/android_device_generic_armv7-a" path="device/generic/armv7-a" revision="499f7e2d190e7dd649428364ff0219fbc26d2902"/>
+  <project groups="default" name="CyanogenMod/android_device_generic_armv7-a-neon" path="device/generic/armv7-a-neon" revision="a1bfdaa528c0972b2c7fd89841595bb1297ebc82"/>
+  <project groups="default" name="CyanogenMod/android_device_generic_goldfish" path="device/generic/goldfish" revision="8ea31f5541f343bcd9f26e850977dfb760eb3da0"/>
+  <project groups="default" name="CyanogenMod/android_device_google_accessory_arduino" path="device/google/accessory/arduino" revision="9b1ef69828775a15396b753c16a83417bb769138"/>
+  <project groups="default" name="CyanogenMod/android_device_google_accessory_demokit" path="device/google/accessory/demokit" revision="c35b0f59498895a58dcc3d0ab8fb03683e123ded"/>
+  <project groups="default" name="CyanogenMod/android_device_sample" path="device/sample" revision="f5fd4235cf143c9dcc12c6105c54162b579a029b"/>
+  <project groups="default" name="CyanogenMod/android_device_ti_panda" path="device/ti/panda" revision="9cd9cd26aba368ba3e06cbf575432db7b3feb3e3"/>
+  <project groups="default" name="CyanogenMod/android_docs_source.android.com" path="docs/source.android.com" revision="2517cffd37d6a85317fe6ee036ced2f346f8512a"/>
+  <project groups="default" name="CyanogenMod/android_external_aac" path="external/aac" revision="49fa8770b0adce84246d5db3feec09db02eeeaee"/>
+  <project groups="default" name="CyanogenMod/android_external_android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3"/>
+  <project groups="default" name="CyanogenMod/android_external_antlr" path="external/antlr" revision="324c4644fee44b9898524c09511bd33c3f12e2df"/>
+  <project groups="default" name="CyanogenMod/android_external_apache-harmony" path="external/apache-harmony" revision="5b53d279675709a4beb54974c72e257c1262da2c"/>
+  <project groups="default" name="CyanogenMod/android_external_apache-http" path="external/apache-http" revision="b975b95b02a5ae8e9e0f909c9ad39d61ba55fed4"/>
+  <project groups="default" name="CyanogenMod/android_external_apache-xml" path="external/apache-xml" revision="74b8044dcd1208a1fc11ee9638584be74663c5a3"/>
+  <project groups="default" name="CyanogenMod/android_external_astl" path="external/astl" revision="0a397b4802b88af52c30e0f866929c70ef7e121b"/>
+  <project groups="default" name="CyanogenMod/android_external_bash" path="external/bash" revision="f4b417c62a4f272c4cf9a074d0f7a3a97201f9db"/>
+  <project groups="default" name="CyanogenMod/android_external_bison" path="external/bison" revision="4af3c477523bc96a5a535500a722cd563f1d486f"/>
+  <project groups="default" name="CyanogenMod/android_external_blktrace" path="external/blktrace" revision="55236cdbcee4e543d69e2c25dbf27c62301d760a"/>
+  <project groups="default" name="CyanogenMod/android_external_bluetooth_bluez" path="external/bluetooth/bluez" revision="064dbabe3c39d027e25f905ee3f7338da6999f09"/>
+  <project groups="default" name="CyanogenMod/android_external_bluetooth_glib" path="external/bluetooth/glib" revision="1143b9918eab068401b604eb11c3f651f4e38b25"/>
+  <project groups="default" name="CyanogenMod/android_external_bluetooth_hcidump" path="external/bluetooth/hcidump" revision="7322661808c2006b7848e79e6bb72b37fbcf6710"/>
+  <project groups="default" name="CyanogenMod/android_external_bouncycastle" path="external/bouncycastle" revision="806ca813c0327a5d673914883853f55440b39cc7"/>
+  <project groups="default" name="CyanogenMod/android_external_bsdiff" path="external/bsdiff" revision="81872540236d9bb15cccf963d05b9de48baa5375"/>
+  <project groups="default" name="CyanogenMod/android_external_busybox" path="external/busybox" revision="5850222b1b8afb810177d8440ca5ed58f3f793fe"/>
+  <project groups="default" name="CyanogenMod/android_external_bzip2" path="external/bzip2" revision="414a94a045a359ab76fa22feaee883180a9b2779"/>
+  <project groups="default" name="CyanogenMod/android_external_checkpolicy" path="external/checkpolicy" revision="a6834194069d4dd2f5883b57a0783b97def7e9ab"/>
+  <project groups="default" name="CyanogenMod/android_external_chromium" path="external/chromium" revision="5fbe95affc8eeed93c678b1d271f64dcc4dd919b"/>
+  <project groups="default" name="CyanogenMod/android_external_chromium-trace" path="external/chromium-trace" revision="1f5d4e97822266b682a8a599b532b3b6460f9e3f"/>
+  <project groups="default" name="CyanogenMod/android_external_cibu-fonts" path="external/cibu-fonts" revision="04031024425e067f6b0fdc40def6e04516c31c4f"/>
+  <project groups="default" name="CyanogenMod/android_external_clang" path="external/clang" revision="094004c9c6693abad38a37906ec4363a7ee9e0df"/>
+  <project groups="default" name="CyanogenMod/android_external_compiler-rt" path="external/compiler-rt" revision="f5031590681e0ef014013edc45ac0e01a7ed2431"/>
+  <project groups="default" name="CyanogenMod/android_external_dbus" path="external/dbus" revision="537eaff5de9aace3348436166d4cde7adc1e488e"/>
+  <project groups="default" name="CyanogenMod/android_external_dexmaker" path="external/dexmaker" revision="7f8ba8eace1379fe45bad3adb91925be236c041d"/>
+  <project groups="default" name="CyanogenMod/android_external_dhcpcd" path="external/dhcpcd" revision="40d921b22a5c878d64b17a1138477e0eeb37842e"/>
+  <project groups="default" name="CyanogenMod/android_external_dnsmasq" path="external/dnsmasq" revision="c3a70a9536fd3a288a886d4e99618e1c70e48b22"/>
+  <project groups="default" name="CyanogenMod/android_external_dropbear" path="external/dropbear" revision="a34ddbe3819bc465968f3676c734b405e655f8b7"/>
+  <project groups="default" name="CyanogenMod/android_external_e2fsprogs" path="external/e2fsprogs" revision="c9499d28e4f8efda3bdf4ad42cd0d3cee1323c1e"/>
+  <project groups="default" name="CyanogenMod/android_external_easymock" path="external/easymock" revision="c9a234086537e5fd820b110bbd99e3cdc695004c"/>
+  <project groups="default" name="CyanogenMod/android_external_eclipse-basebuilder" path="external/eclipse-basebuilder" revision="6134da6347cc997e0cf2921aaadfb46f21c05d85"/>
+  <project groups="default" name="CyanogenMod/android_external_eclipse-windowbuilder" path="external/eclipse-windowbuilder" revision="7d5e809721ca0f3460afcd8ae32fa366c86ec978"/>
+  <project groups="default" name="CyanogenMod/android_external_elfutils" path="external/elfutils" revision="65a81b28950a6cf604aaa85b4695490a6be8e92a"/>
+  <project groups="default" name="CyanogenMod/android_external_embunit" path="external/embunit" revision="336b7c65098af0d1be69f2db55f4e75342d73b3f"/>
+  <project groups="default" name="CyanogenMod/android_external_emma" path="external/emma" revision="77b9074f3d835682d66fe18e0768639745c34239"/>
+  <project groups="default" name="CyanogenMod/android_external_esd" path="external/esd" revision="224a67f2683a7ee997179fc5dd16115e39987b0f"/>
+  <project groups="default" name="CyanogenMod/android_external_expat" path="external/expat" revision="6f6dbce408598404d701f101a684908cb951e25c"/>
+  <project groups="default" name="CyanogenMod/android_external_eyes-free" path="external/eyes-free" revision="16bd4c7a4d1bfe229068b637614dad7c48dd2ceb"/>
+  <project groups="default" name="CyanogenMod/android_external_fdlibm" path="external/fdlibm" revision="f0c0422e71b8752cc5a6b71f783f8f5a16f861cd"/>
+  <project groups="default" name="CyanogenMod/android_external_flac" path="external/flac" revision="686d6ff2afda2ea3211bec37ad0daa655c24e6d4"/>
+  <project groups="default" name="CyanogenMod/android_external_freetype" path="external/freetype" revision="4d3876eef9f90a75f2ae55e880759937482e6b3f"/>
+  <project groups="default" name="CyanogenMod/android_external_fsck_msdos" path="external/fsck_msdos" revision="f9b92a9ae61fc0e147a068d4bd5396ce521176d1"/>
+  <project groups="default" name="CyanogenMod/android_external_ganymed-ssh2" path="external/ganymed-ssh2" revision="d3724dabc1cfbacd105fe6c422b4dcba80e4fb2d"/>
+  <project groups="default" name="CyanogenMod/android_external_gcc-demangle" path="external/gcc-demangle" revision="caf5670525abbd6b98e11bb98c620932cf795624"/>
+  <project groups="default" name="CyanogenMod/android_external_genext2fs" path="external/genext2fs" revision="2e672fab1b8935ab6df5c2fc69386fe6b4ade873"/>
+  <project groups="default" name="CyanogenMod/android_external_giflib" path="external/giflib" revision="b2597268aef084202a8c349d1cc072c03c6e22eb"/>
+  <project groups="default" name="CyanogenMod/android_external_google-diff-match-patch" path="external/google-diff-match-patch" revision="cecbe12841337860291c2d6a5728b681ec5fca2a"/>
+  <project groups="default" name="CyanogenMod/android_external_grub" path="external/grub" revision="cd484b7fcd18d5f967cadbaeb6d27b62f015a5e2"/>
+  <project groups="default" name="CyanogenMod/android_external_gtest" path="external/gtest" revision="cfee58b45a11221732c58582988d6bb47fb4de04"/>
+  <project groups="default" name="CyanogenMod/android_external_guava" path="external/guava" revision="c8b97210aa31c9b80b5fd136d8617ebe4e731e09"/>
+  <project groups="default" name="CyanogenMod/android_external_hamcrest" path="external/hamcrest" revision="1e0972dccb32b15511bd87c40d47cfe3b8bc0624"/>
+  <project groups="default" name="CyanogenMod/android_external_harfbuzz" path="external/harfbuzz" revision="580c68b86c79b455bdae828456ff68e89137eeef"/>
+  <project groups="default" name="CyanogenMod/android_external_htop" path="external/htop" revision="e1a8535012ab86d3e926bebfb7731dab1eb7320a"/>
+  <project groups="default" name="CyanogenMod/android_external_hyphenation" path="external/hyphenation" revision="bfa84834dfeb7fe8d058c2e7e07b5981451ddf82"/>
+  <project groups="default" name="CyanogenMod/android_external_icu4c" path="external/icu4c" revision="97f476302aa9a29f031975a24867c1f7fcb9f49e"/>
+  <project groups="default" name="CyanogenMod/android_external_iproute2" path="external/iproute2" revision="a6628ec1917c375e5247d707c6f1340a12b67445"/>
+  <project groups="default" name="CyanogenMod/android_external_ipsec-tools" path="external/ipsec-tools" revision="adfbc90a9f63d1e0c87b4b17689c07cd3c781a0e"/>
+  <project groups="default" name="CyanogenMod/android_external_iptables" path="external/iptables" revision="e07e0d31f48d951e0f03ba254d4754810732c241"/>
+  <project groups="default" name="CyanogenMod/android_external_javasqlite" path="external/javasqlite" revision="c508dc69793e188873a46e8dff480264dad7eb83"/>
+  <project groups="default" name="CyanogenMod/android_external_javassist" path="external/javassist" revision="14b4d945586243192c8118f4f49be59ebbf561b8"/>
+  <project groups="default" name="CyanogenMod/android_external_jdiff" path="external/jdiff" revision="e4694302d6a3786c64d954e0b3cf42786283bd3c"/>
+  <project groups="default" name="CyanogenMod/android_external_jhead" path="external/jhead" revision="17361ad580713e3e508deadfc84553a6721fed6e"/>
+  <project groups="default" name="CyanogenMod/android_external_jmdns" path="external/jmdns" revision="f4eb7466d5c09098f9dc54137ed3235e3c43fc9f"/>
+  <project groups="default" name="CyanogenMod/android_external_jmonkeyengine" path="external/jmonkeyengine" revision="a6b44658eb1c55295f132a36233a11aa2bd8f9cf"/>
+  <project groups="default" name="CyanogenMod/android_external_jpeg" path="external/jpeg" revision="b9716f70861144157f748ff60ac80be0f93e6375"/>
+  <project groups="default" name="CyanogenMod/android_external_jsilver" path="external/jsilver" revision="a618b151d54625078424bc5940f6bfd63344d11b"/>
+  <project groups="default" name="CyanogenMod/android_external_jsr305" path="external/jsr305" revision="5c7719ffff2b6b6acfde07b0e41c08224f443a7b"/>
+  <project groups="default" name="CyanogenMod/android_external_junit" path="external/junit" revision="c62242988737e0204e6b01312faeda3b9a2b64cd"/>
+  <project groups="default" name="CyanogenMod/android_external_kernel-headers" path="external/kernel-headers" revision="fb79aaeadc656a854f3ba378b64743880873c9ba"/>
+  <project groups="default" name="CyanogenMod/android_external_libffi" path="external/libffi" revision="5dea54fd57265ce037ac94055b9f94a45558b39e"/>
+  <project groups="default" name="CyanogenMod/android_external_libgsm" path="external/libgsm" revision="5e4516958690b9a1b2c98f88eeecba3edd2dbda4"/>
+  <project groups="default" name="CyanogenMod/android_external_liblzf" path="external/liblzf" revision="6946aa575b0949d045722794850896099d937cbb"/>
+  <project groups="default" name="CyanogenMod/android_external_libmtp" path="external/libmtp" revision="afc55a0d0657e4e12b17ea4bac5472c0f17d338a"/>
+  <project groups="default" name="CyanogenMod/android_external_libncurses" path="external/libncurses" revision="565e8f242678ccde08c0d7ca4d772c24a8f0d5c7"/>
+  <project groups="default" name="CyanogenMod/android_external_libnfc-nxp" path="external/libnfc-nxp" revision="5199e59069db67d4f3bb2a466adab2e4647e8e70"/>
+  <project groups="default" name="CyanogenMod/android_external_libnl-headers" path="external/libnl-headers" revision="6ccf7349d61f73ac26a0675d735d903ab919c658"/>
+  <project groups="default" name="CyanogenMod/android_external_libpcap" path="external/libpcap" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a"/>
+  <project groups="default" name="CyanogenMod/android_external_libphonenumber" path="external/libphonenumber" revision="b0e21c22b1ca6b9aeb1426924cdf42a221c3d416"/>
+  <project groups="default" name="CyanogenMod/android_external_libpng" path="external/libpng" revision="fb9d57017268c5cbe74145e3a677b473b14e0e36"/>
+  <project groups="default" name="CyanogenMod/android_external_libselinux" path="external/libselinux" revision="52cd377a74a710b2476c6a4c46da8b59a0dce50d"/>
+  <project groups="default" name="CyanogenMod/android_external_libsepol" path="external/libsepol" revision="6617731185f5d7c899b376d1bfa2dea11eb494a0"/>
+  <project groups="default" name="CyanogenMod/android_external_libusb" path="external/libusb" revision="2801917fe150393d4f4a354165fe89550ae22613"/>
+  <project groups="default" name="CyanogenMod/android_external_libusb-compat" path="external/libusb-compat" revision="94867ba54eb7faa8efca81cf2214d00bb9143d27"/>
+  <project groups="default" name="CyanogenMod/android_external_libvpx" path="external/libvpx" revision="d45f2f42e089fcbab69c5200119c5c5f2985c2ed"/>
+  <project groups="default" name="CyanogenMod/android_external_libxml2" path="external/libxml2" revision="f63137bb10ebc0f7842a2a76bb746db0b4ebc3c3"/>
+  <project groups="default" name="CyanogenMod/android_external_libxslt" path="external/libxslt" revision="98f5140c33273d3bd67ca03566f8417406001016"/>
+  <project groups="default" name="CyanogenMod/android_external_libyuv" path="external/libyuv" revision="351958316957352685f15674ee5bd71726dc993e"/>
+  <project groups="default" name="CyanogenMod/android_external_linux-tools-perf" path="external/linux-tools-perf" revision="8a1715044713722b9fa01419a2148a4a2a67aae5"/>
+  <project groups="default" name="CyanogenMod/android_external_littlemock" path="external/littlemock" revision="39909902f8225d886e40f929aaa25a2ef2aa58ec"/>
+  <project groups="default" name="CyanogenMod/android_external_llvm" path="external/llvm" revision="cbd1489138c0d3fab0e299cc8231c2a1f42b5893"/>
+  <project groups="default" name="CyanogenMod/android_external_lohit-fonts" path="external/lohit-fonts" revision="948e68fa340804dd2036c7d02779ee84b386aceb"/>
+  <project groups="default" name="CyanogenMod/android_external_lsof" path="external/lsof" revision="c3618735935b95138821eb735753ff9cf93a8519"/>
+  <project groups="default" name="CyanogenMod/android_external_lzo" path="external/lzo" revision="409e081d386c767ea872709efcc0adec20457f6d"/>
+  <project groups="default" name="CyanogenMod/android_external_markdown" path="external/markdown" revision="21ce115e566aa5af7fe8a971805af1daab12c754"/>
+  <project groups="default" name="CyanogenMod/android_external_mdnsresponder" path="external/mdnsresponder" revision="cf36684dd6ea25b2490317f2f76d2586b4c3e834"/>
+  <project groups="default" name="CyanogenMod/android_external_mesa3d" path="external/mesa3d" revision="45d57d9d39224c317e4cb130e803f452bbb00ca8"/>
+  <project groups="default" name="CyanogenMod/android_external_mksh" path="external/mksh" revision="93bd42c789325fdd5f8c9ba8f000abd65281f241"/>
+  <project groups="default" name="CyanogenMod/android_external_mockwebserver" path="external/mockwebserver" revision="83aa2d278c5a3f9b93cd809f6fdffba9d1fa3868"/>
+  <project groups="default" name="CyanogenMod/android_external_mtpd" path="external/mtpd" revision="fba8fdc6c588873aa944d7aa79b2f12ade78566a"/>
+  <project groups="default" name="CyanogenMod/android_external_nano" path="external/nano" revision="d94d671e7f18568a6d580563ab642afdc2f3ee8c"/>
+  <project groups="default" name="CyanogenMod/android_external_netcat" path="external/netcat" revision="8794905c49d077c2d3de1a5955fb25d4074f5709"/>
+  <project groups="default" name="CyanogenMod/android_external_netperf" path="external/netperf" revision="58ecd3b7c76263900e38921360e334a416aec362"/>
+  <project groups="default" name="CyanogenMod/android_external_neven" path="external/neven" revision="7f22db82120e7ac17165ab7614e417baa2742623"/>
+  <project groups="default" name="CyanogenMod/android_external_nist-sip" path="external/nist-sip" revision="b23dbfce7ea84c39cea75b612868a5832cb9af2b"/>
+  <project groups="default" name="CyanogenMod/android_external_oauth" path="external/oauth" revision="bc170f58de82000ed6460f111686a850a1890c07"/>
+  <project groups="default" name="CyanogenMod/android_external_opencv" path="external/opencv" revision="1691b57dbad9cfc15b9a8b72f8b376733b934ffe"/>
+  <project groups="default" name="CyanogenMod/android_external_openfst" path="external/openfst" revision="f4c12fce1ee58e670f9c3fce46c40296ba9ee8a2"/>
+  <project groups="default" name="CyanogenMod/android_external_openssh" path="external/openssh" revision="0a8617ed5af2f0248d0e9648e26b224e16ada742"/>
+  <project groups="default" name="CyanogenMod/android_external_openssl" path="external/openssl" revision="9b4b062050bf9a39ae49bce7b735a3c046d7452c"/>
+  <project groups="default" name="CyanogenMod/android_external_openvpn" path="external/openvpn" revision="23e554d5baeaa7e481ce0dcf05ea707befc4d599"/>
+  <project groups="default" name="CyanogenMod/android_external_oprofile" path="external/oprofile" revision="e36e25b6032bb8d194792e77d78f212997b40713"/>
+  <project groups="default" name="CyanogenMod/android_external_ping" path="external/ping" revision="e9640ed4c9c4441b512fd17344b8ca7ab507c176"/>
+  <project groups="default" name="CyanogenMod/android_external_ping6" path="external/ping6" revision="82aaae2089b39522da2d4f93a996d78930ec3382"/>
+  <project groups="default" name="CyanogenMod/android_external_powertop" path="external/powertop" revision="06f845a9963490c70bccb70e742e0f9fb7a47586"/>
+  <project groups="default" name="CyanogenMod/android_external_ppp" path="external/ppp" revision="ab377ba41c51981a0fa4d5aaf350fe4ca540a610"/>
+  <project groups="default" name="CyanogenMod/android_external_proguard" path="external/proguard" revision="9f606f95f03a75961498803e24bee6799a7c0885"/>
+  <project groups="default" name="CyanogenMod/android_external_protobuf" path="external/protobuf" revision="e217977611c52bccde7f7c78e1d3c790c6357431"/>
+  <project groups="default" name="CyanogenMod/android_external_qemu" path="external/qemu" revision="baf3d7830396202df5cc47bd7bcee109c319cdb3"/>
+  <project groups="default" name="CyanogenMod/android_external_qemu-pc-bios" path="external/qemu-pc-bios" revision="20349dae98d7de09a7e390d4a706c64f1db6edc2"/>
+  <project groups="default" name="CyanogenMod/android_external_qrngd" path="external/qrngd" revision="6b04a774064928a1e9b36d6c5449e1623a2b59c4"/>
+  <project groups="default" name="CyanogenMod/android_external_quake" path="external/quake" revision="3a8615dddb462ae2ab51f864ebdfa846907537cd"/>
+  <project groups="default" name="CyanogenMod/android_external_regex-re2" path="external/regex-re2" revision="ea0e870f9b5b483699320f733f17df011258049b"/>
+  <project groups="default" name="CyanogenMod/android_external_replicaisland" path="external/replicaisland" revision="800662a3696ccd22a7d9d33cb2a5ee198df2c6cd"/>
+  <project groups="default" name="CyanogenMod/android_external_rsync" path="external/rsync" revision="0c1c581e7a91fe7da2a93f8845fc0241dba0a4bd"/>
+  <project groups="default" name="CyanogenMod/android_external_safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb"/>
+  <project groups="default" name="CyanogenMod/android_external_sepolicy" path="external/sepolicy" revision="d045eaec2c2e54806d0a9040674bf6b1a7668004"/>
+  <project groups="default" name="CyanogenMod/android_external_skia" path="external/skia" revision="497936662ca50b84592e6147016e4c058976f1c5"/>
+  <project groups="default" name="CyanogenMod/android_external_smali" path="external/smali" revision="28333561005524c15818b98c7f8f07409451ff30"/>
+  <project groups="default" name="CyanogenMod/android_external_sonivox" path="external/sonivox" revision="e6d06460f6936adaf2c5df783700a683fd082878"/>
+  <project groups="default" name="CyanogenMod/android_external_speex" path="external/speex" revision="ebe6230a7f7c69f5a4389f2b09b7b19ef9e94f32"/>
+  <project groups="default" name="CyanogenMod/android_external_sqlite" path="external/sqlite" revision="33e0be3117953bfefb60983063f0681d02830c63"/>
+  <project groups="default" name="CyanogenMod/android_external_srec" path="external/srec" revision="9d333e66af924196df310b124fcda6e73d34e836"/>
+  <project groups="default" name="CyanogenMod/android_external_srtp" path="external/srtp" revision="386ce4d9144fc190797f4e43a31aeaf76ca2e373"/>
+  <project groups="default" name="CyanogenMod/android_external_stlport" path="external/stlport" revision="ec42173ef0955aa1844e0be303363c7e5dc98fb7"/>
+  <project groups="default" name="CyanogenMod/android_external_strace" path="external/strace" revision="f76f96e20f766e6bb91593885b1e800f8bc14a52"/>
+  <project groups="default" name="CyanogenMod/android_external_stressapptest" path="external/stressapptest" revision="b0303471fba852a1f1172e749a1ac8ced1499f08"/>
+  <project groups="default" name="CyanogenMod/android_external_svox" path="external/svox" revision="96ca1bcd58381c379104312f8f48ee8345231062"/>
+  <project groups="default" name="CyanogenMod/android_external_tagsoup" path="external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817"/>
+  <project groups="default" name="CyanogenMod/android_external_tcpdump" path="external/tcpdump" revision="532b8f38c144da9a298260a5d8978ab9e8e3856c"/>
+  <project groups="default" name="CyanogenMod/android_external_tinyalsa" path="external/tinyalsa" revision="60d82d75f995538f04ff47e9b7499c86d54b72f4"/>
+  <project groups="default" name="CyanogenMod/android_external_tinyxml" path="external/tinyxml" revision="d589f7e4a51e75bd5c98a3defd8ee84d7059e86e"/>
+  <project groups="default" name="CyanogenMod/android_external_tremolo" path="external/tremolo" revision="25bd78d2392dbdc879ae53382cde9d019f79cf6f"/>
+  <project groups="default" name="CyanogenMod/android_external_v8" path="external/v8" revision="070d681b70d6b336bc04ed0a9b59357fd21b2bf0"/>
+  <project groups="default" name="CyanogenMod/android_external_valgrind" path="external/valgrind" revision="a3d54f44dda50dcf3da53299ceea0075ee381926"/>
+  <project groups="default" name="CyanogenMod/android_external_vim" path="external/vim" revision="b43f2ca5e52275605327ab7b8d61f001d108d15c"/>
+  <project groups="default" name="CyanogenMod/android_external_webkit" path="external/webkit" revision="59ed57e4ccafc8a4742256a37a51ca0a35fcf01a"/>
+  <project groups="default" name="CyanogenMod/android_external_webp" path="external/webp" revision="88fe2b83c4b9232cd08729556fd0485d6a6a92cd"/>
+  <project groups="default" name="CyanogenMod/android_external_webrtc" path="external/webrtc" revision="5870e071aabfbde0d570142acf440ab4dca97e04"/>
+  <project groups="default" name="CyanogenMod/android_external_wpa_supplicant_6" path="external/wpa_supplicant_6" revision="fe36dc58f503114f9f3520d4b7b2c878b47b2184"/>
+  <project groups="default" name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="147eaf3a8d81cfd8da0d5919efc362b1dc2e5468"/>
+  <project groups="default" name="CyanogenMod/android_external_xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5"/>
+  <project groups="default" name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" revision="221906985a062ec28f6a4ad287ea2999cce4cf7d"/>
+  <project groups="default" name="CyanogenMod/android_external_zlib" path="external/zlib" revision="be282a7f79ac4f51b84955c10ed251b81769bfac"/>
+  <project groups="default" name="CyanogenMod/android_external_zxing" path="external/zxing" revision="7620644768ffc235607b3a94671e49518c18686f"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_av" path="frameworks/av" revision="9457372184279f3118126c50f456f8651fb04370"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="9fb089df358fea685a8a4baa91b1fed338f6ae10"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_compile_linkloader" path="frameworks/compile/linkloader" revision="9f02779af9fc6f8de19f3feb71e1ad01ebf517f6"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_compile_mclinker" path="frameworks/compile/mclinker" revision="abe0db302735bbdf9cd84caee2a36e6c4538fc4d"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_compile_slang" path="frameworks/compile/slang" revision="2ce1028299de2cf99a37dd436e1e81538eef2a59"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_ex" path="frameworks/ex" revision="3fc60c81dabab76c0617494dbbf016a2f2894c18"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_mff" path="frameworks/mff" revision="b9669b8540a1e5c953374d53b115514335e23c27"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_ml" path="frameworks/ml" revision="b019e89cbea221598c482b05ab68b7660b41aa23"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_native" path="frameworks/native" revision="f68495609ca6209cd3732689b09ceccbe88c264e"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_opt_calendar" path="frameworks/opt/calendar" revision="46e001bc78b36235758dde896a0f5d3aa5c9c98b"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_opt_emoji" path="frameworks/opt/emoji" revision="0805d75d3c4319f54fb3c854be2f7baab561cf1b"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="df9dd39c2047992a43b64e13bb0fc348a1630f3b"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_opt_mailcommon" path="frameworks/opt/mailcommon" revision="36aa2bb0089cd944e8d8cf683cc6789c4ef14f0d"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_opt_vcard" path="frameworks/opt/vcard" revision="449d710428682b3f44ba20ce290564cd9352ca0a"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_rs" path="frameworks/rs" revision="9d6b2b359c43a388090aa34b3a558c262214192b"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_support" path="frameworks/support" revision="fc783472d6420e804ec34b536985f183adcac76b"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_testing" path="frameworks/testing" revision="8684e6cd8aa08f25053dd1b052b42abd04d0f3f0"/>
+  <project groups="default" name="CyanogenMod/android_frameworks_wilhelm" path="frameworks/wilhelm" revision="91145ef159d3e165a461cbd76341ff8ed3d72bae"/>
+  <project groups="default" name="CyanogenMod/android_gdk" path="gdk" revision="90dfd3839f9f755ee288e5d64fb2221d1512ea8d"/>
+  <project groups="default" name="CyanogenMod/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="b3aa8c8de0c468ef0c17cab9c3ce151da836f4c5"/>
+  <project groups="default" name="CyanogenMod/android_hardware_cm" path="hardware/cm" revision="08c587e50c40e8b8fa9d4d7ce28d25d212bdc548"/>
+  <project groups="default" name="CyanogenMod/android_hardware_invensense" path="hardware/invensense" revision="8792ef0f74a024dec788de02f60280dd66f871f3"/>
+  <project groups="default" name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" revision="bb992a86df645482167013634a8c1de1a3109344"/>
+  <project groups="default" name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="9292c58fd476cfffef71beaa946b2fbba91e7f9f"/>
+  <project groups="default" name="CyanogenMod/android_hardware_msm7k" path="hardware/msm7k" revision="a13046aa47c47fc8899b532280c95e470ebe47bc"/>
+  <project groups="default" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio" revision="0182ea57e563fbba94d3da1e6f880fc6f0b64d5f"/>
+  <project groups="default" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" revision="0d47bc4df5de25b8232a3c297a96d8def5e206af"/>
+  <project groups="default" name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" revision="91580e27efe157f912ea1c08ce03b63d0010f610"/>
+  <project groups="default" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" revision="266277eaf42a139afa7cff9a57986109e72eeaca"/>
+  <project groups="default" name="CyanogenMod/android_hardware_ril" path="hardware/ril" revision="97b0eef36c848293c2f680377abd6988cac56a84"/>
+  <project groups="default" name="CyanogenMod/android_hardware_ti_fmradio" path="hardware/ti/fmradio" revision="745efe1528e87c15aa23d746a2349d72b92d47b0"/>
+  <project groups="default" name="CyanogenMod/android_hardware_ti_omap3" path="hardware/ti/omap3" revision="0c5c565bef9e52e74023c110d28f0b7ea8ee1846"/>
+  <project groups="default" name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" revision="7d5da7131f5628f04d3c6e601f3938709ecf5a77"/>
+  <project groups="default" name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" revision="48d180781600cec5bacc1b25ff8587a9f54958cc"/>
+  <project groups="default" name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" revision="53fd67ff7af6996265531fc75f9ef01ccec441db"/>
+  <project groups="default" name="CyanogenMod/android_libcore" path="libcore" revision="e06ba1386d78a9932164b730ed5bca7b17178926"/>
+  <project groups="default" name="CyanogenMod/android_libnativehelper" path="libnativehelper" revision="73d3c2e3ed100f1d0ccc08a9675844bf8a0848fa"/>
+  <project groups="default" name="CyanogenMod/android_ndk" path="ndk" revision="5a24231b81b83ad1ff5ef55f92a7e3c3e5f6c77c"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" revision="71bdd582e22e9116168ac07bea1c5c4b09e2608b"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="793edc479e190f39f0036e7506bea9bf3cab5e80"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" revision="2a930a011d2687594b4bea2d37d5c3e6c0a46a4b"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" revision="63b5ff6c5b735c2d7d6d5d9aa4a266815bf52a56"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Calculator" path="packages/apps/Calculator" revision="1c22e03542488afdb58eec623f696bfac29ec068"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Calendar" path="packages/apps/Calendar" revision="948aa8d17b766ff3939461690f799d60e56d1a68"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera" revision="e819d3157da6c47613eea51f33d310ed065c06f7"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="bfc482785e28c675f0a313a43e4004f5370d34d0"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" revision="49ef4b9320b08ef1d81330e735bca4fac8e5c8a0"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Contacts" path="packages/apps/Contacts" revision="dbf9e9fbfa7da3e9924ed2196b08400799471837"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" revision="97fb900f569f4652983de0bcbd507a636c427dd7"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_DeskClock" path="packages/apps/DeskClock" revision="d2d2bc2f0c2687af414c701b16ecc0696e448452"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email" revision="ec1ccb23670837be15be85f09d3e17bede0edc4c"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Exchange" path="packages/apps/Exchange" revision="658a7211057f1e53eb02f791caa82fbe0a4423e6"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Gallery" path="packages/apps/Gallery" revision="5b973f3b973c50c41a539e30a2ea135327ab1e3a"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="3c72720dc89d06a1e457a103217d3aec87facf8d"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_HTMLViewer" path="packages/apps/HTMLViewer" revision="78afabcb89cc9b94bd0bc0b9eebe317e7c2ba959"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_KeyChain" path="packages/apps/KeyChain" revision="ac55e356b662dcd4f198d4be9da359ce9c5d364e"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Launcher2" path="packages/apps/Launcher2" revision="1f1d755ada0bc7d33c8c7226fe730d05d6a53acc"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_LegacyCamera" path="packages/apps/LegacyCamera" revision="9d6aaa8c6818b41b4c356d78232206e8a0593c8a"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Mms" path="packages/apps/Mms" revision="79bc2121c781f191400b69dd3978d0369f147b0c"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Music" path="packages/apps/Music" revision="198a0a2c50c3f9ddd6a1d024797362aa1ca5e32b"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_MusicFX" path="packages/apps/MusicFX" revision="d9fc04055aed9130f02627a73414ee12865a473d"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Nfc" path="packages/apps/Nfc" revision="323beb60af83ad80d8020bdaab3ff94f523f9051"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" revision="771c0f58c04ff478e0666dd04b07d8abe4c5d2e3"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Phone" path="packages/apps/Phone" revision="e817bba2e63e0dd1ddea1825ab61f01b4b1e8f5c"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Protips" path="packages/apps/Protips" revision="be9dee92dc127dfa689f04a308503be3052efea6"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Provision" path="packages/apps/Provision" revision="86bf6d8ac38de74b1bead64ac26fe5130dfffbf5"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_QuickSearchBox" path="packages/apps/QuickSearchBox" revision="4825a957126bead9a482a75856909487c26ce00d"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" revision="de28200b196b869971368f90436f637273212065"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_SpareParts" path="packages/apps/SpareParts" revision="91333e3de9836cc3c5e5ce968d7e9d461bb920a4"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_SpeechRecorder" path="packages/apps/SpeechRecorder" revision="62db451fb742f17669300b9915b9f446f43361ce"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Stk" path="packages/apps/Stk" revision="c344227e88cadd9ff1d95b9aca0983e12646767c"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Superuser" path="packages/apps/Superuser" revision="54ff6c9285f304d2a3775b718f277cb92f84390a"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Tag" path="packages/apps/Tag" revision="9e84cb935447dd11d16a3f9ff51cf65181d1e6c0"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" revision="807c99fd42ab10ebed5681f1a8e0f1f84ad9b4ef"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="6e09943ba6485b5679a7289f01407c4395c430d9"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_VideoEditor" path="packages/apps/VideoEditor" revision="0aa129b8732c96fe8608535289bdadd5f172b69b"/>
+  <project groups="default" name="CyanogenMod/android_packages_apps_VoiceDialer" path="packages/apps/VoiceDialer" revision="4f66efa46643351eb5601225e7284ada878c31c5"/>
+  <project groups="default" name="CyanogenMod/android_packages_experimental" path="packages/experimental" revision="c91ef118f45a82a45a04523d4260da52bc796e07"/>
+  <project groups="default" name="CyanogenMod/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" revision="5bc00e919d26d019af28fa5ab35aba3d8ea7bb60"/>
+  <project groups="default" name="CyanogenMod/android_packages_inputmethods_OpenWnn" path="packages/inputmethods/OpenWnn" revision="59aefa242169b7a51c2381daee58ff22fd1834ce"/>
+  <project groups="default" name="CyanogenMod/android_packages_inputmethods_PinyinIME" path="packages/inputmethods/PinyinIME" revision="272bd8691dd6cd81d4651a61ee5ea7df8d6e5787"/>
+  <project groups="default" name="CyanogenMod/android_packages_providers_ApplicationsProvider" path="packages/providers/ApplicationsProvider" revision="acd8d84daac55ed663bec57b9a1cee2c0bbc6122"/>
+  <project groups="default" name="CyanogenMod/android_packages_providers_CalendarProvider" path="packages/providers/CalendarProvider" revision="485a1841b281b83e35229b1bb385986d43608aa1"/>
+  <project groups="default" name="CyanogenMod/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" revision="e5cf9b30c60c6fdde9729058870e60cfb0990770"/>
+  <project groups="default" name="CyanogenMod/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" revision="59a409bbc018124a275fbedc9e7d0166e0e18cca"/>
+  <project groups="default" name="CyanogenMod/android_packages_providers_DrmProvider" path="packages/providers/DrmProvider" revision="95786945771b2d203be744e8c7376a284e1f9fe7"/>
+  <project groups="default" name="CyanogenMod/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="5c181640b6bf16abaec1badf292b1913f3a5b7cb"/>
+  <project groups="default" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="96d0a80af45923767baf449fc8c735c2f71d64ae"/>
+  <project groups="default" name="CyanogenMod/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" revision="f8ea8e6b016b5a7b66cac68a2cecb384b9176094"/>
+  <project groups="default" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="8d66aa08f8866bab2ccbdab29836beae26c454b2"/>
+  <project groups="default" name="CyanogenMod/android_packages_wallpapers_Basic" path="packages/wallpapers/Basic" revision="bcacf353adc6e8b155a6bd18693575eb6de2c45a"/>
+  <project groups="default" name="CyanogenMod/android_packages_wallpapers_Galaxy4" path="packages/wallpapers/Galaxy4" revision="37b81380d5bf37cb12a098e0e807c21a739c3984"/>
+  <project groups="default" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" path="packages/wallpapers/HoloSpiral" revision="b9f9487b73b1675eddd104489c10e4589d447b07"/>
+  <project groups="default" name="CyanogenMod/android_packages_wallpapers_LivePicker" path="packages/wallpapers/LivePicker" revision="19d496aa4a2102e4d2e91c09b12cf2c0fd4c2047"/>
+  <project groups="default" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" path="packages/wallpapers/MagicSmoke" revision="48b5d9c23834eb74cc883b046d9cb7918687c868"/>
+  <project groups="default" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" path="packages/wallpapers/MusicVisualization" revision="dd7df981ba5cd2e07a8dd52da78925866e822489"/>
+  <project groups="default" name="CyanogenMod/android_packages_wallpapers_NoiseField" path="packages/wallpapers/NoiseField" revision="6203971baa7c638da47c131b59e1c06b71896036"/>
+  <project groups="default" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" path="packages/wallpapers/PhaseBeam" revision="646ff43b4e358492c98f17d1e969f73afbd283cb"/>
+  <project groups="default" name="CyanogenMod/android_pdk" path="pdk" revision="109b65d9d317ef81ffee58736c511e17757b154a"/>
+  <project groups="default" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" revision="73e1721093c1169c0c58e9c704d0ef43576fa8b3"/>
+  <project groups="default" name="CyanogenMod/android_prebuilts_misc" path="prebuilts/misc" revision="04298793744ffd2b8aeabe7820ad5bd2d082db47"/>
+  <project groups="default" name="CyanogenMod/android_prebuilts_tools" path="prebuilts/tools" revision="b8a517fb9fa76bec311b4d07f43bd81e6781123f"/>
+  <project groups="default" name="CyanogenMod/android_sdk" path="sdk" revision="e552fa39ada63b437518e9dbfa0249a1deb26cf5"/>
+  <project groups="default" name="CyanogenMod/android_system_bluetooth" path="system/bluetooth" revision="fb6d87ae60cc1dd26f39caa0cce9ffb6bd03534f"/>
+  <project groups="default" name="CyanogenMod/android_system_extras" path="system/extras" revision="02c0b5491fa8792965f6b820d79d7c20d1bdb265"/>
+  <project groups="default" name="CyanogenMod/android_system_media" path="system/media" revision="7549ccb4e4c4172b4a3f2280c1f54cb702e8d7c2"/>
+  <project groups="default" name="CyanogenMod/android_system_netd" path="system/netd" revision="9fa727ed7ecc8513ebc7cf38f53e671b7ab9c0cf"/>
+  <project groups="default" name="CyanogenMod/android_system_security" path="system/security" revision="e9478a07d7c3793aae26c1cef85b6c1f02dd42f5"/>
+  <project groups="default" name="CyanogenMod/android_system_su" path="system/su" revision="9a7bd76fc2a00b8e3556a230f75ff6f2a0cfd376"/>
+  <project groups="default" name="CyanogenMod/android_system_vold" path="system/vold" revision="42c34c801f918507397754f185f85d79d8558d39"/>
+  <project groups="default" name="CyanogenMod/android_vendor_cm" path="vendor/cm" revision="8f412cb14a9525f0df5ff3a3762d1b7d0c350fa2"/>
+  <project groups="default" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" revision="4c0f151c11b3de7b70f5ef1d67a69501147bf263"/>
+  <project groups="default" name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" revision="671cd64ee2d932c5836942c9cde9bcc70d9d9f25"/>
+  <project groups="default" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" revision="e5d56955584903c31766bd8f24fd978518fcc490"/>
+  <project groups="default" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" revision="d5458642d5673ba6b29b1ac7e5db825bcc6d6de4"/>
+
+  <!-- AOSP -->
+  <project groups="default" name="platform/prebuilt" path="prebuilt" remote="aosp" revision="f6e5b7911ac2af1a932ed06bef6074f2ca9a47c2"/>
+  <project groups="default" name="platform/prebuilts/eclipse" path="prebuilts/eclipse" remote="aosp" revision="c271db8ee0361092b49841f66673296107b9c5d9"/>
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="82a38ffaad280ad07506fd6ee762c93c79f7f05a"/>
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="78060bd30f50c43c7442f32e7740efcdb87ba587"/>
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="8e23c6c0a4bc4fe221a6c1087b09a6d46b096bd6"/>
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="ce6f05e962bcedcb79437d59e288aa8365fd60a6"/>
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" remote="aosp" revision="907c92922b6f593b6d122e3e02212d589ec70ff8"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="b4ecd7806d8f46cddeacaf9f8de92c191fb266e4"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="c63c3b97bd3b9d37680f58b63c61027ec414ad79"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="10191e2f442c5409cb70783508658d474612a97e"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" revision="9e754ea754eac37d1cd20182cc5d37df85239b0d"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" revision="02075080d51c371ae87b9898bf84a085e436ee27"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="9841d729919cd19016525e2b6b1670ab52ad0b16"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="ddd014fe1da895bff96f49d51a84423fd72c7970"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="286506f01f8ca64d6eb0e33bafb475a5cf10ff37"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="907c92922b6f593b6d122e3e02212d589ec70ff8"/>
+  <project groups="default" name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="aosp" revision="0e9345c19d21bd3652a706c23d5e46ed2d3c7f36"/>
+  <project groups="default" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="a0628ceaf72f362cf327d659bb0afb3939873998"/>
+  <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="7337fade52fd73ff4db0b46c9b968594bfc4455d"/>
+
+  <!-- AOKP -->
+  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="1c927e5e25a2db025745dbcb51ef31fd576fa9f5"/>
+
+  <!-- PA -->
+  <project groups="default" name="ParanoidAndroid/android" path="android" revision="1e502a9baa0431422f68e9f9bbfe8bf05c84086c"/>
+  <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" revision="408e67733d6ea3e92776256d2ce7e695947211a4"/>
+  <project groups="default" name="ParanoidAndroid/android_frameworks_base" path="frameworks/base" revision="61fe7f5f1d00044b143304710458c5145b833282"/>
+  <project groups="default" name="ParanoidAndroid/android_packages_apps_Settings" path="packages/apps/Settings" revision="d00838a3bebd3be7d2ead004265288993a7460c7"/>
+  <project groups="default" name="ParanoidAndroid/android_system_core" path="system/core" revision="ded8d468d9e78353565ae222ac9344c8ff3a069f"/>
+  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="9c5feaad0449d179953e5bc168ff3cf1ef27e39c"/>
+
+  <!-- Xperia Proprietary -->
+  <project groups="default" name="CyanogenMod/android_device_semc_mango" path="device/semc/mango" />
+  <project groups="default" name="CyanogenMod/android_device_semc_urushi" path="device/semc/urushi" />
+  <project groups="default" name="CyanogenMod/android_device_semc_mogami-common" path="device/semc/mogami-common" />
+  <project groups="default" name="CyanogenMod/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" />
+  <project groups="default" name="CyanogenMod/android_device_semc_zeus" path="device/semc/zeus" />
+  <project groups="default" name="CyanogenMod/android_device_semc_zeusc" path="device/semc/zeusc" />
+  <project groups="default" name="CyanogenMod/android_device_semc_zeus-common" path="device/semc/zeus-common" />
+  <project groups="default" name="CyanogenMod/android_hardware_sony_DASH" path="hardware/somc/dash" />
+  <project groups="default" name="CyanogenMod/semc-kernel-msm7x30" path="kernel/semc/msm7x30" />
+  <project groups="default" name="TheMuppets/proprietary_vendor_semc" path="vendor/semc" />
+
+</manifest>
