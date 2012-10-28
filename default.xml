@@ -345,5 +345,6 @@
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
+  <project groups="default" name="PAC-man/android_vendor_pac" path="vendor/pac" />
 
 </manifest>
