@@ -231,7 +231,6 @@
   <project groups="default" name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera" revision="e819d3157da6c47613eea51f33d310ed065c06f7"/>
   <project groups="default" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="bfc482785e28c675f0a313a43e4004f5370d34d0"/>
   <project groups="default" name="CyanogenMod/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" revision="49ef4b9320b08ef1d81330e735bca4fac8e5c8a0"/>
-  <project groups="default" name="CyanogenMod/android_packages_apps_Contacts" path="packages/apps/Contacts" revision="dbf9e9fbfa7da3e9924ed2196b08400799471837"/>
   <project groups="default" name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" revision="97fb900f569f4652983de0bcbd507a636c427dd7"/>
   <project groups="default" name="CyanogenMod/android_packages_apps_DeskClock" path="packages/apps/DeskClock" revision="d2d2bc2f0c2687af414c701b16ecc0696e448452"/>
   <project groups="default" name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email" revision="ec1ccb23670837be15be85f09d3e17bede0edc4c"/>
@@ -247,7 +246,6 @@
   <project groups="default" name="CyanogenMod/android_packages_apps_MusicFX" path="packages/apps/MusicFX" revision="d9fc04055aed9130f02627a73414ee12865a473d"/>
   <project groups="default" name="CyanogenMod/android_packages_apps_Nfc" path="packages/apps/Nfc" revision="323beb60af83ad80d8020bdaab3ff94f523f9051"/>
   <project groups="default" name="CyanogenMod/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" revision="771c0f58c04ff478e0666dd04b07d8abe4c5d2e3"/>
-  <project groups="default" name="CyanogenMod/android_packages_apps_Phone" path="packages/apps/Phone" revision="e817bba2e63e0dd1ddea1825ab61f01b4b1e8f5c"/>
   <project groups="default" name="CyanogenMod/android_packages_apps_Protips" path="packages/apps/Protips" revision="be9dee92dc127dfa689f04a308503be3052efea6"/>
   <project groups="default" name="CyanogenMod/android_packages_apps_Provision" path="packages/apps/Provision" revision="86bf6d8ac38de74b1bead64ac26fe5130dfffbf5"/>
   <project groups="default" name="CyanogenMod/android_packages_apps_QuickSearchBox" path="packages/apps/QuickSearchBox" revision="4825a957126bead9a482a75856909487c26ce00d"/>
@@ -267,7 +265,6 @@
   <project groups="default" name="CyanogenMod/android_packages_inputmethods_PinyinIME" path="packages/inputmethods/PinyinIME" revision="272bd8691dd6cd81d4651a61ee5ea7df8d6e5787"/>
   <project groups="default" name="CyanogenMod/android_packages_providers_ApplicationsProvider" path="packages/providers/ApplicationsProvider" revision="acd8d84daac55ed663bec57b9a1cee2c0bbc6122"/>
   <project groups="default" name="CyanogenMod/android_packages_providers_CalendarProvider" path="packages/providers/CalendarProvider" revision="485a1841b281b83e35229b1bb385986d43608aa1"/>
-  <project groups="default" name="CyanogenMod/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" revision="e5cf9b30c60c6fdde9729058870e60cfb0990770"/>
   <project groups="default" name="CyanogenMod/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" revision="59a409bbc018124a275fbedc9e7d0166e0e18cca"/>
   <project groups="default" name="CyanogenMod/android_packages_providers_DrmProvider" path="packages/providers/DrmProvider" revision="95786945771b2d203be744e8c7376a284e1f9fe7"/>
   <project groups="default" name="CyanogenMod/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="5c181640b6bf16abaec1badf292b1913f3a5b7cb"/>
@@ -327,8 +324,6 @@
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android" path="android" revision="1e502a9baa0431422f68e9f9bbfe8bf05c84086c"/>
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" revision="408e67733d6ea3e92776256d2ce7e695947211a4"/>
-  <project groups="default" name="ParanoidAndroid/android_frameworks_base" path="frameworks/base" revision="61fe7f5f1d00044b143304710458c5145b833282"/>
-  <project groups="default" name="ParanoidAndroid/android_packages_apps_Settings" path="packages/apps/Settings" revision="d00838a3bebd3be7d2ead004265288993a7460c7"/>
   <project groups="default" name="ParanoidAndroid/android_system_core" path="system/core" revision="ded8d468d9e78353565ae222ac9344c8ff3a069f"/>
   <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="9c5feaad0449d179953e5bc168ff3cf1ef27e39c"/>
 
@@ -343,5 +338,12 @@
   <project groups="default" name="CyanogenMod/android_hardware_sony_DASH" path="hardware/somc/dash" />
   <project groups="default" name="CyanogenMod/semc-kernel-msm7x30" path="kernel/semc/msm7x30" />
   <project groups="default" name="TheMuppets/proprietary_vendor_semc" path="vendor/semc" />
+
+<!-- PAC -->
+  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" />
+  <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
+  <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
+  <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
+  <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
 
 </manifest>
