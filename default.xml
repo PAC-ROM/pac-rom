@@ -342,7 +342,7 @@
   <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
   <project groups="default" name="PAC-man/android_vendor_pac" path="vendor/pac" />
-  <project groups="default" name="PAC-man/android_prebuilts_gcc_linux-x86_arm_arm-gnueabihf-linaro-4.7" path="prebuilts/gcc/linux-x86/arm/arm-gnueabihf-linaro-4.7" />
+  <project groups="default" name="PAC-man/android_prebuilts_gcc_linux-x86_arm_arm-gnueabihf-linaro-4.7" path="prebuilts/gcc/linux-x86/arm/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
 
   <project groups="default" name="PAC-man/pac" path="pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
