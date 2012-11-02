@@ -5,7 +5,10 @@
   <remote fetch="https://git@bitbucket.org/paranoidandroid/" name="paranoid"/>
   <remote fetch="ssh://git@github.com" name="private"/>
   
-  <default remote="github" revision="refs/heads/jellybean" sync-j="4"/>
+  <default remote="github" 
+           revision="refs/heads/jellybean"
+           sync-c="true"
+           sync-j="4" />
 
   <!-- PAC manifest v15.0.0 | 25-Oct-2012-->
 
