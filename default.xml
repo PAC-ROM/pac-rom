@@ -231,6 +231,7 @@
   <project groups="default" name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera" />
   <project groups="default" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" />
   <project groups="default" name="CyanogenMod/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" />
+  <project groups="default" name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" />
   <project groups="default" name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" />
   <project groups="default" name="CyanogenMod/android_packages_apps_DeskClock" path="packages/apps/DeskClock" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email" />
