@@ -319,7 +319,7 @@
   <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" />
 
   <!-- AOKP -->
-  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" />
+  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="1c927e5e25a2db025745dbcb51ef31fd576fa9f5" />
 
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
@@ -335,7 +335,7 @@
   <project groups="default" name="TheMuppets/proprietary_vendor_semc" path="vendor/semc" />
 
 <!-- PAC -->
-  <project groups="default" name="PAC-man/android" path="android" />
+  <project groups="default" name="PAC-man/android" path="android" revision="refs/heads/test" />
   <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" />
   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
