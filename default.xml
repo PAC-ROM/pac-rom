@@ -324,7 +324,7 @@
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" revision="408e67733d6ea3e92776256d2ce7e695947211a4"/>
   <project groups="default" name="ParanoidAndroid/android_system_core" path="system/core" revision="ded8d468d9e78353565ae222ac9344c8ff3a069f"/>
-  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="9c5feaad0449d179953e5bc168ff3cf1ef27e39c"/>
+  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="c280aea131865a97514456d6dff3d2ec61a3fa1d"/>
 
   <!-- Xperia Proprietary -->
 
