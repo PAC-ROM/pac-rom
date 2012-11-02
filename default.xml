@@ -298,25 +298,25 @@
   <project groups="default" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" />
 
   <!-- AOSP -->
-  <project groups="default" name="platform/prebuilt" path="prebuilt" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/eclipse" path="prebuilts/eclipse" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" />
-  <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" />
+  <project groups="default" name="platform/prebuilt" path="prebuilt" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/eclipse" path="prebuilts/eclipse" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="jb-dev" />
+  <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="jb-dev" />
 
   <!-- AOKP -->
   <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="1c927e5e25a2db025745dbcb51ef31fd576fa9f5" />
