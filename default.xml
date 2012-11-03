@@ -10,7 +10,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- PAC manifest v15.0.0 | 25-Oct-2012-->
+  <!-- PAC manifest v15.8.0 | 3-Nov-2012-->
 
   <!-- CM -->
   <project groups="default" name="CyanogenMod/android_abi_cpp" path="abi/cpp" />
@@ -323,7 +323,7 @@
   <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="jb-dev" />
 
   <!-- AOKP -->
-  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="1c927e5e25a2db025745dbcb51ef31fd576fa9f5" />
+  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="5929ce93777fbcefb406d134b0d4b1c83b3d1feb" />
 
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
