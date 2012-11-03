@@ -339,7 +339,7 @@
   <project groups="default" name="TheMuppets/proprietary_vendor_semc" path="vendor/semc" />
 
 <!-- PAC -->
-  <project groups="default" name="PAC-man/android" path="android" revision="refs/heads/test" />
+  <project groups="default" name="PAC-man/android" path="android" />
   <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" />
   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
