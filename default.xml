@@ -10,7 +10,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- PAC manifest v15.9.0 | 5-Nov-2012-->
+  <!-- PAC manifest v16.0.0 | 5-Nov-2012-->
 
   <!-- CM -->
   <project groups="default" name="CyanogenMod/android_abi_cpp" path="abi/cpp" />
@@ -328,7 +328,7 @@
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
   <project groups="default" name="ParanoidAndroid/android_system_core" path="system/core" />
-  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="ddea3e05aac602068391640653f0c8db7c1667b3"/>
+  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="9b837947e91209948935c6245857e7f60098f45d"/>
 
   <!-- PAC -->
   <project groups="default" name="PAC-man/android" path="android" />
