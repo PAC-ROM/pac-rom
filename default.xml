@@ -10,7 +10,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- PAC manifest v16.2.0 | 11-Nov-2012-->
+  <!-- PAC manifest v17.0.0 | 12-Nov-2012-->
 
   <!-- CM -->
   <project groups="default" name="CyanogenMod/android_abi_cpp" path="abi/cpp" />
@@ -296,6 +296,7 @@
   <project groups="default" name="CyanogenMod/android_system_su" path="system/su" />
   <project groups="default" name="CyanogenMod/android_system_vold" path="system/vold" />
   <project groups="default" name="CyanogenMod/android_vendor_cm" path="vendor/cm" />
+  <project groups="default" name="CyanogenMod/android_vendor_qcom_opensource_v8" path="vendor/qcom/opensource/v8" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" />
@@ -328,7 +329,7 @@
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
   <project groups="default" name="ParanoidAndroid/android_system_core" path="system/core" />
-  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="9b837947e91209948935c6245857e7f60098f45d"/>
+  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="ac5cbde53827272c41e0a022ae9d767d5d0bc4a3"/>
 
   <!-- PAC -->
   <project groups="default" name="PAC-man/android" path="android" />
