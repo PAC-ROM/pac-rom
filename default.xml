@@ -217,7 +217,6 @@
   <project groups="default" name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" />
   <project groups="default" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" />
   <project groups="default" name="CyanogenMod/android_hardware_ril" path="hardware/ril" />
-  <project groups="default" name="CyanogenMod/android_hardware_ti_fmradio" path="hardware/ti/fmradio" />
   <project groups="default" name="CyanogenMod/android_hardware_ti_omap3" path="hardware/ti/omap3" />
   <project groups="default" name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" />
   <project groups="default" name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" />
