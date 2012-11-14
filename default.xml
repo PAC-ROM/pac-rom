@@ -327,7 +327,7 @@
 
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
-  <project groups="default" name="ParanoidAndroid/android_system_core" path="system/core" />
+  <project groups="default" name="ParanoidAndroid/cm_system_core" path="system/core" />
   <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="ac5cbde53827272c41e0a022ae9d767d5d0bc4a3"/>
 
   <!-- PAC -->
