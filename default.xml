@@ -10,7 +10,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- PAC manifest v17.0.0 | 12-Nov-2012-->
+  <!-- PAC manifest v18.0.0 | 18-Nov-2012-->
 
   <!-- CM -->
   <project groups="default" name="CyanogenMod/android_abi_cpp" path="abi/cpp" />
@@ -244,7 +244,6 @@
   <project groups="default" name="CyanogenMod/android_packages_apps_KeyChain" path="packages/apps/KeyChain" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Launcher2" path="packages/apps/Launcher2" />
   <project groups="default" name="CyanogenMod/android_packages_apps_LegacyCamera" path="packages/apps/LegacyCamera" />
-  <project groups="default" name="CyanogenMod/android_packages_apps_Mms" path="packages/apps/Mms" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Music" path="packages/apps/Music" />
   <project groups="default" name="CyanogenMod/android_packages_apps_MusicFX" path="packages/apps/MusicFX" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Nfc" path="packages/apps/Nfc" />
@@ -323,18 +322,19 @@
   <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="jb-dev" />
 
   <!-- AOKP -->
-  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="1bcaaa262039cc52f8b1b8e32ad1d538cf8c75a5" />
+  <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="3627e7af26f4c8174744d80827f7dc1ab13647e3" />
 
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
   <project groups="default" name="ParanoidAndroid/cm_system_core" path="system/core" />
-  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="ac5cbde53827272c41e0a022ae9d767d5d0bc4a3"/>
+  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="d1ecd70a7f2f9965262b843360b021bc861fc036"/>
 
   <!-- PAC -->
   <project groups="default" name="PAC-man/android" path="android" />
   <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" />
   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
+  <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
   <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
   <project groups="default" name="PAC-man/android_vendor_pac" path="vendor/pac" />
