@@ -235,7 +235,6 @@
   <project groups="default" name="CyanogenMod/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" />
   <project groups="default" name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" />
   <project groups="default" name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" />
-  <project groups="default" name="CyanogenMod/android_packages_apps_DeskClock" path="packages/apps/DeskClock" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Exchange" path="packages/apps/Exchange" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Gallery" path="packages/apps/Gallery" />
@@ -323,6 +322,7 @@
 
   <!-- AOKP -->
   <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="3627e7af26f4c8174744d80827f7dc1ab13647e3" />
+  <project groups="default" name="AOKP/packages_apps_DeskClock" path="packages/apps/DeskClock" revision="jb"/>
 
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
