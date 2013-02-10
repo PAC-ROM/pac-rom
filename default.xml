@@ -362,7 +362,7 @@
 
   <!-- AOKP -->
   <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" revision="jb-mr1" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" revision="d6faaa38c0f851ceba76ca17851953ae22db9c5a" />
+  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" revision="08742dd141fe7490962d32a6fd2c88bcc1afefb1" />
 
   <!-- PA -->
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jellybean" />
