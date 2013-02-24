@@ -11,9 +11,3 @@ To initialize your local repository using the PAC-man trees, use a command like 
 Then to sync up:
 
     repo sync
-
-
-You need help while compiling or have some Questions related to PAC-rom for your Device?
-Ask them in our official IRC Channel:
-
-[IRC Channel: #pac-man](http://webchat.freenode.net/?channels=pac-man)
