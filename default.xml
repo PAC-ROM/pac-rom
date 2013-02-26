@@ -377,6 +377,7 @@
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="PAC-man/android_system_core" />
   <project path="vendor/pac" name="PAC-man/android_vendor_pac" />
+  <project path="vendor/google" name="PAC-man/android_vendor_google" />
 
   <project path="pac" name="PAC-man/pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
