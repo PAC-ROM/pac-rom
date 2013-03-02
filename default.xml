@@ -179,6 +179,7 @@
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" />
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" />
@@ -198,6 +199,7 @@
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
+  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
