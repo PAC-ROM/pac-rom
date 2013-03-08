@@ -17,7 +17,7 @@
            sync-j="4" />
 
   <!-- CM -->
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="PAC-man/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
