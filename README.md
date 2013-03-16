@@ -14,8 +14,8 @@ To sync up:
 
 Then to build:
 
-    ./build-PAC.sh <device_name>
-    example: ./build-PAC.sh urushi
+    ./build-pac.sh <device_name>
+    example: ./build-pac.sh urushi
 
 You need help while compiling for your Device?
 You get them in our official IRC Channel:
