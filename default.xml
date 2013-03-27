@@ -366,7 +366,7 @@
 
   <!-- PA -->
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jellybean" />
-  <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" revision="42b5fadf6443a46aab965eac5f58cf54c19c8bea" />
+  <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" revision="b78e8530922f572c2a98c4a5265d964646e10ee9" />
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
 
   <!-- PAC -->
