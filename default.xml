@@ -373,6 +373,7 @@
   <project path="android" name="PAC-man/android" />
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
+  <project path="packages/apps/GooglePacman" name="PAC-man/android_packages_apps_GooglePacman" />
   <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
   <project path="packages/apps/ROMControl" name="PAC-man/packages_apps_ROMControl" />
   <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" />
