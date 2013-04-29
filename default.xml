@@ -370,10 +370,11 @@
   <project path="android" name="PAC-man/android" />
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
   <project path="frameworks/native" name="PAC-man/android_frameworks_native" />
+  <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
+  <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" />
   <project path="packages/apps/GooglePacman" name="PAC-man/android_packages_apps_GooglePacman" />
-  <!-- until the old Mms gets renamed -->
-  <project path="packages/apps/Mms" name="Sniper-/android_packages_apps_Mms" />
+  <project path="packages/apps/Mms" name="PAC-man/android_packages_apps_Mms" />
   <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
   <project path="packages/apps/ROMControl" name="PAC-man/packages_apps_ROMControl" />
   <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" />
@@ -382,8 +383,6 @@
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="PAC-man/android_system_core" />
   <project path="vendor/pac" name="PAC-man/android_vendor_pac" />
-  <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" />
-  <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" />
 
   <project path="pac" name="PAC-man/pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
