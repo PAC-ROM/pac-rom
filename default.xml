@@ -388,4 +388,8 @@
     <copyfile dest="build-pac.sh" src="build.sh"/>
   </project>
 
+  <!-- Device extras: legacy support -->
+  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1_old" />
+  <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" revision="cm-10.1_old" />
+
 </manifest>
