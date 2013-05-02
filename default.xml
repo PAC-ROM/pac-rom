@@ -270,7 +270,6 @@
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
-  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
@@ -372,6 +371,7 @@
   <project path="packages/apps/Calendar" name="PAC-man/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
+  <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" />
   <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" />
   <project path="packages/apps/GooglePacman" name="PAC-man/android_packages_apps_GooglePacman" />
   <project path="packages/apps/Mms" name="PAC-man/android_packages_apps_Mms" />
