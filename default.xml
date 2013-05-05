@@ -385,7 +385,6 @@
   <project path="vendor/pac" name="PAC-man/android_vendor_pac" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro" name="PAC-man/android-toolchain-eabi-linaro" />
 
-
   <project path="pac" name="PAC-man/pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
   </project>
