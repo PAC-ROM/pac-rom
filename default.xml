@@ -10,7 +10,7 @@
   	   
   <remote  name="pac"
            fetch="https://github.com/PAC-man/"
-           review="code.nwwn.com:8080" />
+           review="review.pac-man-rom.de" />
 
   <remote  name="cfx"
            fetch="https://bitbucket.org/codefirex" />
