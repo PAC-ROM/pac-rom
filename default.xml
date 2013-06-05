@@ -294,11 +294,8 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" />
-  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="cm" />
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="cm" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" />
-  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="cm" />
-  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="cm" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cm" />
   <project path="packages/apps/Protips" name="android_packages_apps_Protips" remote="cm" />
