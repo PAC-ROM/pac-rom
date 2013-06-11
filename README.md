@@ -12,14 +12,14 @@ You can send patches by using these commands:
     git commit -a
     git push ssh://<username>@code.nwwn.com:29418/<project> HEAD:refs/for/cm-10.1
 
-Register at review.pac-man-rom.de and use the username that you registered there in the above command
+Register at review.pac-rom.com and use the username that you registered there in the above command
 
 Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
 If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of git commit -a
 use git commit --amend. Gerrit will recognize it as a new patchset.
 
-To view the status of your and others patches, visit [PAC-man Code Review](http://review.pac-man-rom.de/)
+To view the status of your and others patches, visit [PAC-man Code Review](http://review.pac-rom.com/)
 
 
 Getting Started
