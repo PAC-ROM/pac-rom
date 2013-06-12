@@ -382,7 +382,7 @@
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jellybean" />
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="49523fb393f7570632c11c04d8e6d57f272cc522" />
   <project path="vendor/tmobile" name="android_vendor_tmobile" remote="pa" revision="jellybean" />
-  <project path="packages/apps/HALO" name="HALO" remote="pa" revision="jellybean" />
+  <project path="packages/apps/HALO" name="HALO" remote="pac" revision="jellybean" />
   <project path="packages/apps/ParanoidWallpapers" name="android_packages_apps_ParanoidWallpapers" remote="pa" revision="jellybean" />
 
   <!-- PAC -->
