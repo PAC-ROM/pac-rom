@@ -297,7 +297,6 @@
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="cm" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cm" />
   <project path="packages/apps/Protips" name="android_packages_apps_Protips" remote="cm" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" />
   <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="cm" />
@@ -395,6 +394,7 @@
   <project path="packages/apps/Email" name="android_packages_apps_Email"  remote="pac" />
   <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman"  remote="pac" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms"  remote="pac" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone"  remote="pac" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl"  remote="pac" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings"  remote="pac" />
