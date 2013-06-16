@@ -200,7 +200,8 @@
   <project path="external/smali" name="android_external_smali" remote="cm" />
   <project path="external/sonivox" name="android_external_sonivox" remote="cm" />
   <project path="external/speex" name="android_external_speex" remote="cm" />
-  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
+  <project path="external/koush/Superuser" name="Superuser" remote="cm" />
+  <project path="external/koush/Widgets" name="Widgets" remote="cm" />
   <project path="external/sqlite" name="android_external_sqlite" remote="cm" />
   <project path="external/srec" name="android_external_srec" remote="cm" />
   <project path="external/srtp" name="android_external_srtp" remote="cm" />
@@ -220,7 +221,6 @@
   <project path="external/webkit" name="android_external_webkit" remote="cm" />
   <project path="external/webp" name="android_external_webp" remote="cm" />
   <project path="external/webrtc" name="android_external_webrtc" remote="cm" />
-  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" />
