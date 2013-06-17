@@ -109,6 +109,7 @@
   <project path="external/gcc-demangle" name="android_external_gcc-demangle" remote="cm" />
   <project path="external/genext2fs" name="android_external_genext2fs" remote="cm" />
   <project path="external/giflib" name="android_external_giflib" remote="cm" />
+  <project path="external/google" name="android_external_google" remote="cm" />
   <project path="external/google-diff-match-patch" name="android_external_google-diff-match-patch" remote="cm" />
   <project path="external/grub" name="android_external_grub" remote="cm" />
   <project path="external/gtest" name="android_external_gtest" remote="cm" />
