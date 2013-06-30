@@ -1,6 +1,18 @@
 PAC-man - The AIO ROM
 =====================
 
+Support Our Sites
+------------------------
+We have created many different ways to follow us. Please visit and support our efforts
+
+[PAC-man Website] (http://pac-rom.com/index.html)
+[PAC-man Forum] (http://forum.pac-rom.com/)
+[PAC-man Downloads] (http://pacman.basketbuild.com/index.php?dir=main/)
+[PAC-man Gerrit] (http://review.pac-rom.com/)
+[PAC-man Stats] (http://stats.pac-rom.com/stats)
+[PAC-man Google+] (https://plus.google.com/102557242936341392082/posts)
+
+
 Submitting Patches
 ------------------
 We're open source, and patches are always welcome!
@@ -41,5 +53,4 @@ Then to build:
     ./build-pac.sh <device_name>
 
 For information on how to build, check [Here](http://forum.xda-developers.com/showthread.php?t=2060017)
-Our Official Forum : [Forum](http://pac-man-rom.de/)
 Our Official IRC Channel: [#pac-rom](http://webchat.freenode.net/?channels=pac-rom)
