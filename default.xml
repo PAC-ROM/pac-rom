@@ -96,12 +96,14 @@
   <project path="external/embunit" name="android_external_embunit" remote="cm" />
   <project path="external/emma" name="android_external_emma" remote="cm" />
   <project path="external/esd" name="android_external_esd" remote="cm" />
+  <project path="external/exfat" name="android_external_exfat" remote="cm" />
   <project path="external/expat" name="android_external_expat" remote="cm" />
   <project path="external/eyes-free" name="android_external_eyes-free" remote="cm" />
   <project path="external/fat32lib" name="android_external_fat32lib" remote="cm" />
   <project path="external/fdlibm" name="android_external_fdlibm" remote="cm" />
   <project path="external/flac" name="android_external_flac" remote="cm" />
   <project path="external/freetype" name="android_external_freetype" remote="cm" />
+  <project path="external/fuse" name="android_external_fuse" remote="cm" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" />
   <project path="external/ganymed-ssh2" name="android_external_ganymed-ssh2" remote="cm" />
   <project path="external/gcc-demangle" name="android_external_gcc-demangle" remote="cm" />
@@ -173,6 +175,7 @@
   <project path="external/netperf" name="android_external_netperf" remote="cm" />
   <project path="external/neven" name="android_external_neven" remote="cm" />
   <project path="external/nist-sip" name="android_external_nist-sip" remote="cm" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" />
   <project path="external/oauth" name="android_external_oauth" remote="cm" />
   <project path="external/okhttp" name="android_external_okhttp" remote="cm" />
   <project path="external/opencv" name="android_external_opencv" remote="cm" />
