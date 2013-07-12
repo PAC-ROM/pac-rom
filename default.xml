@@ -4,7 +4,7 @@
   <!-- Main remote for the PAC project -->
   <remote  name="pac"
            fetch="."
-           review="review.pac-man-rom.de:8080" />
+           review="review.pac-rom.com" />
 
   <!-- Main remote for Android -->
   <remote  name="aosp"

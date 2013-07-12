@@ -6,10 +6,15 @@ Support Our Sites
 We have created many different ways to follow us. Please visit and support our efforts
 
 [PAC-man Website] (http://pac-rom.com/index.html)
+
 [PAC-man Forum] (http://forum.pac-rom.com/)
+
 [PAC-man Downloads] (http://pacman.basketbuild.com/index.php?dir=main/)
+
 [PAC-man Gerrit] (http://review.pac-rom.com/)
+
 [PAC-man Stats] (http://stats.pac-rom.com/stats)
+
 [PAC-man Google+] (https://plus.google.com/102557242936341392082/posts)
 
 
@@ -22,7 +27,7 @@ You can send patches by using these commands:
     <make edits>
     git add -A
     git commit -a
-    git push ssh://<username>@code.nwwn.com:29418/<project> HEAD:refs/for/cm-10.1
+    git push ssh://<username>@review.pac-rom.com:29418/<project> HEAD:refs/for/cm-10.1
 
 Register at review.pac-rom.com and use the username that you registered there in the above command
 
