@@ -27,7 +27,7 @@ You can send patches by using these commands:
     <make edits>
     git add -A
     git commit -a
-    git push ssh://<username>@review.pac-rom.com:29418/<project> HEAD:refs/for/cm-10.1
+    [pac-review] (http://pac-rom.com/downloads/pac-review)
 
 Register at review.pac-rom.com and use the username that you registered there in the above command
 
