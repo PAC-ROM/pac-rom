@@ -112,6 +112,7 @@
   <project path="external/google" name="android_external_google" remote="cm" />
   <project path="external/google-diff-match-patch" name="android_external_google-diff-match-patch" remote="cm" />
   <project path="external/grub" name="android_external_grub" remote="cm" />
+  <project path="external/gson" name="android_external_gson" remote="cm" />
   <project path="external/gtest" name="android_external_gtest" remote="cm" />
   <project path="external/guava" name="android_external_guava" remote="cm" />
   <project path="external/hamcrest" name="android_external_hamcrest" remote="cm" />
