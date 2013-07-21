@@ -313,6 +313,7 @@
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" />
   <project path="packages/apps/VideoEditor" name="android_packages_apps_VideoEditor" remote="cm" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" />
+  <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" />
   <project path="packages/experimental" name="android_packages_experimental" remote="cm" />
   <project path="packages/inputmethods/OpenWnn" name="android_packages_inputmethods_OpenWnn" remote="cm" />
   <project path="packages/inputmethods/PinyinIME" name="android_packages_inputmethods_PinyinIME" remote="cm" />
