@@ -30,7 +30,7 @@ You can send patches by using these commands:
     git push ssh://<username>@review.pac-rom.com:29418/<project> HEAD:refs/for/cm-10.1
 
 
-OR you can use our script to push ,have a look [pac-review] (http://pac-rom.com/downloads/pac-review)
+OR you can use our script to push, have a look at [pac-review] (http://pac-rom.com/downloads/pac-review)
 
 Register at review.pac-rom.com and use the username that you registered there in the above command
 
