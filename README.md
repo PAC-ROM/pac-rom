@@ -17,6 +17,8 @@ We have created many different ways to follow us. Please visit and support our e
 
 [PAC-man Google+] (https://plus.google.com/102557242936341392082/posts)
 
+[PAC-man Facebook] (https://www.facebook.com/PacManTheAioRom)
+
 
 Submitting Patches
 ------------------
