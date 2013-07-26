@@ -136,6 +136,7 @@
   <project path="external/jsr305" name="android_external_jsr305" remote="cm" />
   <project path="external/junit" name="android_external_junit" remote="cm" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="cm" />
+  <project path="external/kissfft" name="android_external_kissfft" remote="cm" />
   <project path="external/libcap-ng" name="android_external_libcap-ng" remote="cm" />
   <project path="external/libffi" name="android_external_libffi" remote="cm" />
   <project path="external/libgsm" name="android_external_libgsm" remote="cm" groups="pdk" />
