@@ -280,8 +280,6 @@
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" groups="qcom" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" groups="qcom" />
-  <!-- NOT YET BRANCHED TO cm-10.2 YET BY CM REMOVE THE REVISION WHEN IT IS BRANCHED! -->
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" groups="qcom" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" groups="qcom" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" groups="qcom" />
