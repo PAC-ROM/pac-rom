@@ -38,7 +38,7 @@
            sync-j="4" />
 
   <!-- CM -->
-  <project path="build" name="android_build" remote="pac" groups="pdk" >
+  <project path="build" name="android_build" remote="cm" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="android_abi_cpp" remote="cm" groups="pdk" />
