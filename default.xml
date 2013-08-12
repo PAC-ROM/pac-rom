@@ -407,9 +407,9 @@
   <project path="sdk" name="android_sdk" remote="cm" />
 
   <!-- AOKP -->
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="aokp" revision="jb-mr2" />
 
   <!-- PA -->
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jb43" />
