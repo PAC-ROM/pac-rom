@@ -432,10 +432,7 @@
 
   <project path="pac" name="pac" remote="pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
-  </project>
-
-  <project path="pac" name="pac" remote="pac" >
-    <copyfile dest="build-pac-odexed.sh" src="build-odexed.sh"/>
+	<copyfile dest="build-pac-odexed.sh" src="build-odexed.sh"/>
   </project>
 
   <!-- Device extras: legacy support -->
