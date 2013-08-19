@@ -434,6 +434,10 @@
     <copyfile dest="build-pac.sh" src="build.sh"/>
   </project>
 
+  <project path="pac" name="pac" remote="pac" >
+    <copyfile dest="build-pac-odexed.sh" src="build-odexed.sh"/>
+  </project>
+
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1" />
   <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" revision="cm-10.1" />
