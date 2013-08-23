@@ -400,9 +400,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk,tools" />
   <project path="sdk" name="android_sdk" remote="cm" />
 
-  <!-- AOKP -->
-  <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="aokp" revision="jb-mr2" />
-
   <!-- PA -->
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jb43" />
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
