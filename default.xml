@@ -399,10 +399,14 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk,tools" />
   <project path="sdk" name="android_sdk" remote="cm" />
 
+  <!-- AOKP -->
+ <project path="vendor/aokp-tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr2" />
+ <project path="vendor/aokp-tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
+ <project path="vendor/aokp-tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr2" />
+
   <!-- PA -->
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jb43" />
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
-  <project path="vendor/tmobile" name="android_vendor_tmobile" remote="pa" revision="jellybean" />
   <project path="packages/apps/HALO" name="HALO" remote="pac" />
 
   <!-- PAC -->
