@@ -26,12 +26,6 @@
            fetch="https://github.com/ParanoidAndroid"
            review="gerrit.androidninjas.com:8181" />
 
-  <!-- Other remotes -->
-  <remote  name="cfx"
-           fetch="https://bitbucket.org/codefirex" />
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
   <default revision="refs/heads/cm-10.2"
            remote="github"
            sync-c="true"
