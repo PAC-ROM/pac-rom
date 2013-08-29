@@ -220,6 +220,7 @@
   <project path="external/smali" name="android_external_smali" remote="cm"/>
   <project path="external/sonivox" name="android_external_sonivox" remote="cm" groups="pdk" />
   <project path="external/speex" name="android_external_speex" remote="cm" groups="pdk" />
+  <project path="external/spongycastle" name="android_external_spongycastle" remote="cm" groups="pdk" />
   <project path="external/sqlite" name="android_external_sqlite" remote="cm" groups="pdk" />
   <project path="external/srec" name="android_external_srec" remote="cm" />
   <project path="external/srtp" name="android_external_srtp" remote="cm" />
