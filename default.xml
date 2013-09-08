@@ -219,7 +219,6 @@
   <project path="external/srec" name="android_external_srec" remote="cm" />
   <project path="external/srtp" name="android_external_srtp" remote="cm" />
   <project path="external/stlport" name="android_external_stlport" remote="cm" groups="pdk" />
-  <project path="external/strace" name="android_external_strace" remote="cm" />
   <project path="external/stressapptest" name="android_external_stressapptest" remote="cm" />
   <project path="external/svox" name="android_external_svox" remote="cm" />
   <project path="external/tagsoup" name="android_external_tagsoup" remote="cm" />
@@ -301,6 +300,7 @@
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" remote="cm" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" />
+  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
