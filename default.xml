@@ -99,7 +99,7 @@
   <project path="external/eyes-free" name="android_external_eyes-free" remote="cm" />
   <project path="external/fdlibm" name="android_external_fdlibm" remote="cm" />
   <project path="external/flac" name="android_external_flac" remote="cm" groups="pdk" />
-  <project path="external/Focal" name="android_external_Focal" remote="cm" />
+  <project path="external/Focal" name="xplodwild/android_external_Focal" remote="github" />
   <project path="external/freetype" name="android_external_freetype" remote="cm" groups="pdk" />
   <project path="external/fuse" name="android_external_fuse" remote="cm" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" />
@@ -311,7 +311,7 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" />
-  <project path="packages/apps/Focal" name="android_packages_apps_Focal" remote="cm" />
+  <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="github" revision="master" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" />
