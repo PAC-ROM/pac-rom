@@ -430,7 +430,7 @@
   </project>
 
   <!-- Device extras: legacy support -->
-  <project path="hardware/qcom/display-legacy" name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-legacy" revision="cm-10.2" />
-  <project path="hardware/qcom/media-legacy" name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-legacy" revision="cm-10.2" />
+  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" revision="cm-10.2" />
+  <project path="hardware/qcom/media_legacy" name="androidarmv6/android_hardware_qcom_media_legacy" revision="cm-10.2" />
 
 </manifest>
