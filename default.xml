@@ -429,8 +429,4 @@
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
 
-  <!-- Device extras: legacy support -->
-  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" revision="cm-10.2" />
-  <project path="hardware/qcom/media-legacy" name="androidarmv6/android_hardware_qcom_media_legacy" revision="cm-10.2" />
-
 </manifest>
