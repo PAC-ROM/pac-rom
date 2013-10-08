@@ -58,6 +58,7 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="device/google/accessory/arduino" name="android_device_google_accessory_arduino" remote="cm" groups="device" />
   <project path="device/google/accessory/demokit" name="android_device_google_accessory_demokit" remote="cm" groups="device" />
+  <project path="device/sample" name="android_device_sample" remote="cm" groups="device" />
   <project path="external/aac" name="android_external_aac" remote="cm" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" remote="cm" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" />
