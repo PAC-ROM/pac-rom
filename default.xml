@@ -291,7 +291,7 @@
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" groups="qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" groups="qcom" />
-  <project path="hardware/qcom/media-v412" name="android_hardware_qcom_media-v412" remote="cm" groups="qcom" />
+  <project path="hardware/qcom/media-v412" name="android_hardware_qcom_media-v4l2" remote="cm" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" />
