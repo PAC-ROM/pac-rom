@@ -28,7 +28,7 @@ You can send patches by using these commands:
     cd <project>
     <make edits>
     git add -A
-    git commit -a
+    git commit -m "Message"
     git push ssh://<username>@review.pac-rom.com:29418/<project> HEAD:refs/for/cm-10.2
 
 
@@ -38,7 +38,7 @@ Register at review.pac-rom.com and use the username that you registered there in
 
 Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
-If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of git commit -a
+If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of git commit -m
 use git commit --amend. Gerrit will recognize it as a new patchset.
 
 To view the status of your and others patches, visit [PAC-man Code Review](http://review.pac-rom.com/)
@@ -49,6 +49,8 @@ Getting Started
 
 To get started with PAC-man, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+Setup build environmnet - http://forum.xda-developers.com/showthread.php?t=2224142
 
 To initialize your local repository using the PAC-man trees, use a command like this:
 
