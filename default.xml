@@ -271,6 +271,7 @@
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="cm" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="cm" />
+  <project path="frameworks/opt/telephony-msim" name="android_frameworks_opt_telephony-msim" groups="pdk" remote="cm" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="cm" groups="pdk" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" />
