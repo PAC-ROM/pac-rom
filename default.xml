@@ -103,6 +103,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="cm" />
   <project path="external/expat" name="android_external_expat" remote="cm" groups="pdk" />
   <project path="external/eyes-free" name="android_external_eyes-free" remote="cm" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" />
   <project path="external/fdlibm" name="android_external_fdlibm" remote="cm" />
   <project path="external/flac" name="android_external_flac" remote="cm" groups="pdk" />
   <project path="external/Focal" name="xplodwild/android_external_Focal" remote="github" />
