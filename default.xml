@@ -20,10 +20,6 @@
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
 
-  <remote  name="omni"
-           fetch="https://github.com/omnirom"
-           review="gerrit.omnirom.org" />
-
   <remote  name="aokp"
            fetch="https://github.com/AOKP"
            review="gerrit.aokp.co" />
@@ -357,6 +353,7 @@
   <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" remote="cm" />
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" remote="cm" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="cm" />
+  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" />
   <project path="prebuilt" name="android_prebuilt" remote="cm" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" groups="pdk" />
   <project path="system/extras" name="android_system_extras" remote="cm" groups="pdk" />
@@ -416,9 +413,6 @@
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jb43" />
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
   <project path="packages/apps/HALO" name="HALO" remote="pac" />
-
-  <!-- Omni -->
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omni" revision="android-4.3" />
 
   <!-- PAC -->
   <project path="android" name="android" remote="pac" />
