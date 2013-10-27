@@ -102,7 +102,6 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" />
   <project path="external/fdlibm" name="android_external_fdlibm" remote="cm" />
   <project path="external/flac" name="android_external_flac" remote="cm" groups="pdk" />
-  <project path="external/Focal" name="xplodwild/android_external_Focal" remote="github" />
   <project path="external/freetype" name="android_external_freetype" remote="cm" groups="pdk" />
   <project path="external/fuse" name="android_external_fuse" remote="cm" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" />
