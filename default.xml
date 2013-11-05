@@ -71,7 +71,6 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
-  <project path="external/bash" name="platform/external/bash" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
@@ -125,10 +124,8 @@
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/ffmpeg" name="platform/external/ffmpeg" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fuse" name="platform/external/fuse" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -158,7 +155,6 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/klogripper" name="platform/external/klogripper" />
   <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
@@ -166,10 +162,8 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libminiz" name="codefireXperiment/external_libminiz" remote="github" revision="jb-devel-mr2-release" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libncurses" name="platform/external/libncurses" />
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
-  <project path="external/libnl" name="platform/external/libnl" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -188,8 +182,6 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
-  <project path="external/lrzsz" name="platform/external/lrzsz" />
-  <project path="external/lsof" name="platform/external/lsof" />
   <project path="external/lzma" name="platform/external/lzma"  groups="aosp44" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie"  />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -287,7 +279,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware-legacy" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" groups="deleted_in_aosp44" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom"/>
@@ -333,9 +325,9 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/quicksearchbox" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/soundrecorder" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -414,9 +406,11 @@
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
     
     <!-- CM -->
+  <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-10.2"/>
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2" />
   <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-10.2" /> 
   <project path="external/fsck/msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-10.2" />
+  <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-10.2" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-10.2" />
   <project path="external/gson" name="android_external_gson" remote="cm" revision="cm-10.2" />
   <project path="external/heimdall" name="android_external_heimdall" remote="cm" revision="cm-10.2" />
@@ -425,7 +419,9 @@
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-10.2" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-10.2" />
   <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-10.2" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-10.2" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-10.2" />
+  <project path="external/lsof" name="android_external_lsof" remote="cm" revision="cm-10.2"/>
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-10.2" />
   <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-10.2" />
   <project path="external/powertop" name="android_external_powertop" remote="cm" revision="cm-10.2" />
@@ -471,9 +467,9 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="PMStaging" revision="pac-4.4" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="PMStaging" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="PMStaging" revision="pac-4.4" />
-  <project path="packages/apps/Phone" name="android_packages_apps_phone" remote="PMStaging" revision="pac-4.4" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="PMStaging" revision="pac-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="PMStaging" revision="pac-4.4" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_input_LatinIME" remote="PMStaging" revision="pac-4.4" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="PMStaging" revision="pac-4.4" />
   <project path="system/core" name="android_system_core" remote="PMStaging" revision="pac-4.4" groups="pdk" />
     
 </manifest>
