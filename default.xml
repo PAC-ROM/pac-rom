@@ -451,7 +451,9 @@
   
     <!-- PMStaging -->
   <project path="android" name="pacman" remote="PMStaging" revision="pac-4.4" />
-  <project path="build" name="android_build" groups="pdk" remote="PMStaging" revision="pac-4.4" />
+  <project path="build" name="android_build" groups="pdk" remote="PMStaging" revision="pac-4.4" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="frameworks/av" name="android_frameworks_av" remote="PMStaging" revision="pac-4.4" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="PMStaging" revision="pac-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" remote="PMStaging" revision="pac-4.4" groups="pdk" />	
