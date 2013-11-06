@@ -424,7 +424,6 @@
   <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-11.0" />
   <project path="external/spongycastle" name="android_external_spongycastle" remote="cm" revision="cm-11.0" />
   <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" remote="cm" revision="cm-11.0" />
-  <project path="external/webkit" name="android_external_webkit" remote="cm" revision="cm-11.0" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-11.0" />
