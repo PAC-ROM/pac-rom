@@ -428,7 +428,6 @@
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-11.0" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" remote="cm" revision="cm-11.0" />
