@@ -421,7 +421,6 @@
   <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-11.0" />
   <project path="external/powertop" name="android_external_powertop" remote="cm" revision="cm-11.0" />
   <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-11.0" />
-  <project path="external/quake" name="android_external_quake" remote="cm" revision="cm-11.0" />
   <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-11.0" />
   <project path="external/spongycastle" name="android_external_spongycastle" remote="cm" revision="cm-11.0" />
   <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" remote="cm" revision="cm-11.0" />
