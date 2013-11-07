@@ -373,7 +373,7 @@
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux"  />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel"  groups="pdk" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime"  groups="aosp44" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk"  groups="pdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk"  groups="pdk" revision="b52073d9cb1b044f4701bfc32e60b927323740fb" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools"  groups="pdk" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -411,6 +411,7 @@
   <project path="external/spongycastle" name="android_external_spongycastle" remote="cm" revision="cm-11.0" />
   <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" remote="cm" revision="cm-11.0" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-11.0" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
