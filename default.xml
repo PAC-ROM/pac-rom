@@ -28,14 +28,8 @@
   <remote  name="pa"
            fetch="https://github.com/ParanoidAndroid" />
 
-  <remote name="cfx"
-          fetch="https://bitbucket.org/codefirex/" />
-
   <remote name="github"
           fetch="https://github.com/" />
-
-  <remote name="linaro"
-          fetch="git://android.git.linaro.org/" />
 
   <default revision="refs/tags/android-4.4_r1"
           sync-j="12"
@@ -352,15 +346,13 @@
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="pdk,darwin,arm"  />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" revision="master" remote="aosp" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm"  />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="pdk,darwin,mips"  />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86"  />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm"  />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" revision="master" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" groups="pdk,linux,arm" revision="master" remote="linaro" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm"  />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="cfx" revision="jb-devel" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux"  />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux"  />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux"  />
@@ -382,8 +374,8 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools"  />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools"  />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools"  />
-  <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
+  <project path="tools/motodev" name="platform/tools/motodev" />
 
     <!-- CM -->
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-11.0"/>
