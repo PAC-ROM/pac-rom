@@ -428,11 +428,11 @@
   <project path="packages/apps/HALO" name="HALO" remote="pac" revision= "pac-4.4" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="pac" revision= "pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" revision= "pac-4.4" />
+  <project path="packages/apps/PAClauncher" name="android_packages_apps_PAClauncher" remote="pac" revision= "pac-4.4" />
   <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pac" revision= "pac-4.4" />
   <project path="packages/apps/PacStats" name="android_packages_apps_PacStats" remote="pac" revision= "pac-4.4" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="pac" revision= "pac-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision= "pac-4.4" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="pac" revision= "pac-4.4" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="pac" revision= "pac-4.4" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="pac" revision= "pac-4.4" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pac" revision= "pac-4.4" />
