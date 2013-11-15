@@ -350,6 +350,10 @@
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" />
+
 
   <!-- AOSP -->
   <project path="cts" name="platform/cts" groups="cts" remote="aosp" revision="refs/tags/android-4.4_r1.1" />
@@ -454,9 +458,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4_r1" />
 
   <!-- AOKP -->
+ <!--
  <project path="vendor/aokp-tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr2" />
  <project path="vendor/aokp-tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
- <project path="vendor/aokp-tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr2" />
+ <project path="vendor/aokp-tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr2" /-->
 
   <!-- PA -->
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jb43" />
@@ -475,7 +480,7 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pac" revision="pac-4.4" />
-  <project path="packages/apps/HALO" name="HALO" remote="pac" revision="pac-4.4" />
+  <!-- project path="packages/apps/HALO" name="HALO" remote="pac" revision="pac-4.4" -->
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PAClauncher" name="android_packages_apps_PAClauncher" remote="pac" revision="pac-4.4" />
