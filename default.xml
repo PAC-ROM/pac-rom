@@ -31,7 +31,7 @@
 
   <remote  name="pa"
            fetch="https://github.com/ParanoidAndroid"
-           review="gerrit.androidninjas.com:8181" />
+           review="gerrit.paranoidandroid.co" />
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
