@@ -78,6 +78,7 @@
   <project path="external/chromium-trace" name="android_external_chromium-trace" groups="pdk" remote="cm" />
   <project path="external/clang" name="android_external_clang" groups="pdk" remote="cm" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" remote="cm" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="cm" />
   <project path="external/crda" name="android_external_crda" remote="cm" />
   <project path="external/dexmaker" name="android_external_dexmaker" remote="cm" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="cm" />
