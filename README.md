@@ -54,7 +54,7 @@ Setup build environmnet - http://forum.xda-developers.com/showthread.php?t=22241
 
 To initialize your local repository using the PAC-man trees, use a command like this:
 
-    repo init -u git://github.com/PAC-man/android.git -b <branch>
+    repo init -u git://github.com/PAC-man/pacman.git -b <branch>
 
 Then to sync up:
 
