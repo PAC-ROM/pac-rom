@@ -391,7 +391,7 @@
   <project path="packages/apps/HALO" name="HALO" remote="pac" revision="jellybean" />
 
   <!-- PAC -->
-  <project path="android" name="android" remote="pac" />
+  <project path="android" name="pacman" remote="pac" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pac" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="pac" />
