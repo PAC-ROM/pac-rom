@@ -324,6 +324,8 @@
   <project path="external/webp" name="android_external_webp" remote="cm" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" remote="cm" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="cm" />
+  <project path="external/whispersystems/TextSecure" name="android_external_whispersystems_TextSecure" remote="cm" />
+  <project path="external/whispersystems/WhisperPush" name="android_external_whispersystems_WhisperPush" remote="cm" />
   <project path="external/xmlwriter" name="android_external_xmlwriter" remote="cm" />
   <project path="external/xmp_toolkit" name="android_external_xmp_toolkit" remote="cm" />
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" remote="cm" />
@@ -394,6 +396,7 @@
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cm" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
+  <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="cm" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
   <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="cm" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cm" />
