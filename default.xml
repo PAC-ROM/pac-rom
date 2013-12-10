@@ -141,6 +141,7 @@
   <project path="external/libogg" name="android_external_libogg" remote="cm" />
   <project path="external/libpcap" name="android_external_libpcap" remote="cm" />
   <project path="external/libphonenumber" name="android_external_libphonenumber" remote="cm" />
+  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" />
   <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="cm" />
   <project path="external/libppp" name="android_external_libppp" remote="cm" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" remote="cm" />
@@ -217,6 +218,8 @@
   <project path="external/vim" name="android_external_vim" remote="cm" />
   <project path="external/webkit" name="android_external_webkit" remote="cm" />
   <project path="external/webp" name="android_external_webp" remote="cm" />
+  <project path="external/whispersystems/WhisperPush" name="android_external_whispersystems_WhisperPush" remote="cm" />
+  <project path="external/whispersystems/TextSecure" name="android_external_whispersystems_TextSecure" remote="cm" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" remote="cm" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="cm" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" groups="pdk" remote="cm" />
@@ -292,6 +295,7 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
+  <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="cm" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cm" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" />
