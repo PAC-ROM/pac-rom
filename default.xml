@@ -470,7 +470,8 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="pac" revision="pac-4.4" />
-  <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pac" revision="pac-4.4" />  
+  <project path="packages/apps/PacConsole" name="pvyParts/pac_game_console" remote="github" revision="pac-4.4" />
   <!-- project path="packages/apps/HALO" name="HALO" remote="pac" revision="pac-4.4" -->
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="pac" revision="pac-4.4" />
