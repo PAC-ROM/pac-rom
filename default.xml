@@ -331,7 +331,6 @@
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" remote="cm" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="cm" />
   <project path="external/zxing" name="android_external_zxing" remote="cm" />
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cm" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" groups="pdk" remote="cm" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" groups="pdk" remote="cm" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" groups="pdk" remote="cm" />
@@ -459,18 +458,19 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="pacman" remote="pac" revision="pac-4.4" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pac" revision="pac-4.4" />
-  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="pac" revision="pac-4.4" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="pac" revision="pac-4.4" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="pac" revision="pac-4.4" />
-  <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pac" revision="pac-4.4" />  
+  <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacConsole" name="pvyParts/pac_game_console" remote="github" revision="pac-4.4" />
   <!-- project path="packages/apps/HALO" name="HALO" remote="pac" revision="pac-4.4" -->
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="pac" revision="pac-4.4" />
