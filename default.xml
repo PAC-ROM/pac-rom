@@ -422,7 +422,6 @@
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" remote="cm" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cm" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" remote="cm" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="cm" />
@@ -482,6 +481,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-4.4" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="pac" revision="pac-4.4" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="pac" revision="pac-4.4" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pac" revision="pac-4.4" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pac" revision="pac-4.4" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" revision="pac-4.4" >
