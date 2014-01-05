@@ -401,7 +401,6 @@
   <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="cm" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" />
@@ -414,7 +413,6 @@
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" />
-  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="cm" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" />
   <project path="packages/apps/VideoEditor" name="android_packages_apps_VideoEditor" remote="cm" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" />
@@ -475,16 +473,18 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pac" revision="pac-4.4" />
-  <project path="packages/apps/PacConsole" name="pac_game_console" remote="pac" revision="pac-4.4" />
   <!-- project path="packages/apps/HALO" name="HALO" remote="pac" revision="pac-4.4" -->
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/PacConsole" name="pac_game_console" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PAClauncher" name="android_packages_apps_PAClauncher" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacStats" name="android_packages_apps_PacStats" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="pac" revision="pac-4.4" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="pac" revision="pac-4.4" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="pac" revision="pac-4.4" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pac" revision="pac-4.4" />
