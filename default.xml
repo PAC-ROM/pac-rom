@@ -454,7 +454,7 @@
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="kitkat" />
 
   <!-- ChameleonOS -->
-  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="ChameleonOS" revision="kitkat-staging" />
+  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="ChameleonOS" revision="kitkat" />
 
   <!-- PAC -->
   <project path="build" name="android_build" groups="pdk" remote="pac" revision="pac-4.4" >
