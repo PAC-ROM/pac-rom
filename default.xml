@@ -330,6 +330,7 @@
   <project path="external/webp" name="android_external_webp" remote="cm" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" remote="cm" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="cm" />
+  <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" groups="pdk" remote="cm" />
   <project path="external/whispersystems/TextSecure" name="android_external_whispersystems_TextSecure" remote="cm" />
   <project path="external/whispersystems/WhisperPush" name="android_external_whispersystems_WhisperPush" remote="cm" />
   <project path="external/xmlwriter" name="android_external_xmlwriter" remote="cm" />
