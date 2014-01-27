@@ -146,7 +146,6 @@
   <!-- CM -->
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" remote="cm" />
   <project path="art" name="android_art" remote="cm" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="cm" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" />
   <project path="dalvik" name="android_dalvik" remote="cm" />
@@ -466,6 +465,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="pacman" remote="pac" revision="pac-4.4" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pac" revision="pac-4.4" />
