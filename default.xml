@@ -301,6 +301,7 @@
   <project path="external/protobuf" name="android_external_protobuf" groups="pdk" remote="cm" />
   <project path="external/qemu" name="android_external_qemu" remote="cm" />
   <project path="external/qemu-pc-bios" name="android_external_qemu-pc-bios" remote="cm" />
+  <project path="external/qrngd" name="android_external_qrngd" remote="cm" />
   <project path="external/regex-re2" name="android_external_regex-re2" remote="cm" />
   <project path="external/replicaisland" name="android_external_replicaisland" remote="cm" />
   <project path="external/rsync" name="android_external_rsync" remote="cm" />
