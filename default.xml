@@ -11,7 +11,7 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <!-- Generic github remote -->
+  <!-- Generic Github remote -->
   <remote  name="github"
            fetch="https://github.com" />
 
@@ -20,7 +20,7 @@
            fetch="https://github.com/AOKP"
            review="gerrit.aokp.co" />
 
-  <remote  name="ChameleonOS"
+  <remote  name="chaos"
            fetch="https://github.com/ChameleonOS"
            review="review.chameleonos.org" />
 
@@ -142,6 +142,9 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+
+  <!-- ChameleonOS -->
+  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="chaos" revision="kitkat" />
 
   <!-- CM -->
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" remote="cm" />
@@ -449,16 +452,13 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" />
 
-  <!-- PA -->
-  <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="kitkat" />
-
-  <!-- ChameleonOS -->
-  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="ChameleonOS" revision="kitkat" />
-
   <!-- Omnirom -->
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-4.4" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-4.4" />
+
+  <!-- PA -->
+  <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="kitkat" />
 
   <!-- PAC -->
   <project path="android" name="pacman" remote="pac" revision="pac-4.4" />
