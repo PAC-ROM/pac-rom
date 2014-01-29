@@ -461,7 +461,6 @@
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="kitkat" />
 
   <!-- PAC -->
-  <project path="android" name="pacman" remote="pac" revision="pac-4.4" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="build" name="android_build" groups="pdk" remote="pac" revision="pac-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -497,6 +496,7 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pac" revision="pac-4.4" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pac" revision="pac-4.4" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pac" revision="pac-4.4" />
+  <project path="pacman" name="pacman" remote="pac" revision="pac-4.4" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" revision="pac-4.4" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
