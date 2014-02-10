@@ -127,7 +127,6 @@
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
@@ -441,6 +440,7 @@
   <project path="packages/wallpapers/NoiseField" name="android_packages_wallpapers_NoiseField" remote="cm" />
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" />
   <project path="prebuilt" name="android_prebuilt" remote="cm" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" remote="cm" />
   <project path="sdk" name="android_sdk" remote="cm" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" />
