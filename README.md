@@ -64,5 +64,5 @@ Then to build:
 
     ./build-pac.sh <device_name>
 
-For information on how to build, check [Here](http://forum.xda-developers.com/showthread.php?t=2060017)
-Our Official IRC Channel: [#pac-rom](http://webchat.freenode.net/?channels=pac-rom)
+For information on how to build, check [Here](http://forum.xda-developers.com/showthread.php?t=2649812)
+;Our Official IRC Channel: [#pac-rom](http://webchat.freenode.net/?channels=pac-rom)
