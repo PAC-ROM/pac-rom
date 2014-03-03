@@ -356,7 +356,6 @@
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="cm" />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="cm" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="cm" />
   <project path="frameworks/opt/telephony-msim" name="android_frameworks_opt_telephony-msim" remote="cm" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" />
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cm" />
@@ -471,6 +470,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="pac" revision="pac-4.4" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="pac" revision="pac-4.4" />
