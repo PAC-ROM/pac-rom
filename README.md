@@ -82,6 +82,7 @@ To build with flags, this is the layout needed:
     ./build-pac.sh <Optional_flags> <device codename>
 
 For an o3 optimization and Dex optimisations -if you don't understand, best to leave it- for the nexus 5 run:
+
     ./build-pac.sh -o3 -d hammerhead
 
 You can also add a -j# before device_code_name for a selected number of jobs, usually No. of cores + 1 or 2
