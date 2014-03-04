@@ -56,13 +56,37 @@ To initialize your local repository using the PAC-man trees, use a command like 
 
     repo init -u git://github.com/PAC-man/pacman.git -b <branch>
 
+To initialize for KitKat
+
+    repo init -u git://github.com/PAC-man/pacman.git -b pac-4.4
+
 Then to sync up:
 
-    repo sync
+    repo sync -j#
+
+Where # is the specific number of Jobs, 4 is default, change in accordance to internet performance/bandwidth/speed. Default is 4.
 
 Then to build:
 
-    ./build-pac.sh <device_name>
+    ./build-pac.sh <device_code_name>
 
-For information on how to build, check [Here](http://forum.xda-developers.com/showthread.php?t=2649812)
-;Our Official IRC Channel: [#pac-rom](http://webchat.freenode.net/?channels=pac-rom)
+Example for Nexus 5:
+
+    ./build-pac.sh hammerhead
+
+For a list of supported commands run the script on it's own:
+
+    ./build-pac.sh
+
+To build with flags, this is the layout needed:
+    ./build-pac.sh <Optional_flags> <device codename>
+
+For an o3 optimization and Dex optimisations -if you don't understand, best to leave it- for the nexus 5 run:
+    ./build-pac.sh -o3 -d hammerhead
+
+You can also add a -j# before device_code_name for a selected number of jobs, usually No. of cores + 1 or 2
+
+
+Device isn't supported? Not a problem, see [Here] (http://forum.xda-developers.com/showthread.php?t=2662325) for how to build for an unsupported device!
+For information on how to build a general ROM from source, check [Here](http://forum.xda-developers.com/showthread.php?t=2649812)
+| Our Official IRC Channel: [#pac-rom](http://webchat.freenode.net/?channels=pac-rom)
