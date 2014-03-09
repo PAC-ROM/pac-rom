@@ -356,7 +356,6 @@
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="cm" />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="cm" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" remote="cm" />
-  <project path="frameworks/opt/telephony-msim" name="android_frameworks_opt_telephony-msim" remote="cm" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" />
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cm" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" />
@@ -399,7 +398,6 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" />
-  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
   <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="cm" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
@@ -415,7 +413,6 @@
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" />
   <project path="packages/apps/VideoEditor" name="android_packages_apps_VideoEditor" remote="cm" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" />
@@ -426,7 +423,6 @@
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" remote="cm" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" remote="cm" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="cm" />
   <project path="packages/screensavers/Basic" name="android_packages_screensavers_Basic" remote="cm" />
   <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" remote="cm" />
@@ -475,6 +471,7 @@
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="pac" revision="pac-4.4"/>
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="pac" revision="pac-4.4" />
@@ -489,6 +486,7 @@
   <project path="packages/apps/PAClauncher" name="android_packages_apps_PAClauncher" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacStats" name="android_packages_apps_PacStats" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="pac" revision="pac-4.4" />
@@ -496,6 +494,7 @@
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="pac" revision="pac-4.4" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pac" revision="pac-4.4" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pac" revision="pac-4.4" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="pac" revision="pac-4.4" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pac" revision="pac-4.4" />
   <project path="pacman" name="pacman" remote="pac" revision="pac-4.4" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pac" revision="pac-4.4" />
