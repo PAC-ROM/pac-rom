@@ -485,6 +485,7 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PAClauncher" name="android_packages_apps_PAClauncher" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pac" revision="pac-4.4" />
+  <projetc path="packages/apps/PACPerformance" name="android_packages_apps_PACPerformance" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacStats" name="android_packages_apps_PacStats" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-4.4" />
