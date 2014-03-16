@@ -36,6 +36,10 @@
            fetch="https://github.com/AOSPA"
            review="gerrit.paranoidandroid.co" />
 
+  <remote  name="slim"
+           fetch="https://github.com/slimroms"
+           review="gerrit.slimroms.net" />
+
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
@@ -454,6 +458,9 @@
 
   <!-- PA -->
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="kitkat" />
+
+  <!-- SlimRoms' Recents Card lib -->
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="slim" revision="kk4.4"/>
 
   <!-- PAC -->
   <project path="bionic" name="android_bionic" groups="pdk" remote="pac" revision="pac-4.4" />
