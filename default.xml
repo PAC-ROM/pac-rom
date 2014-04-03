@@ -304,6 +304,7 @@
   <project path="external/ppp" name="android_external_ppp" remote="cm" />
   <project path="external/proguard" name="android_external_proguard" groups="pdk-java" remote="cm" />
   <project path="external/protobuf" name="android_external_protobuf" groups="pdk" remote="cm" />
+  <project path="external/protobuf-c" name="android_external_protobuf-c" remote="cm" />
   <project path="external/qemu" name="android_external_qemu" remote="cm" />
   <project path="external/qemu-pc-bios" name="android_external_qemu-pc-bios" remote="cm" />
   <project path="external/qrngd" name="android_external_qrngd" remote="cm" />
