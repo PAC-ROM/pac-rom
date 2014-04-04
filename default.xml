@@ -180,6 +180,7 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="cm" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="cm" />
   <project path="external/bsdiff" name="android_external_bsdiff" groups="pdk" remote="cm" />
+  <project path="external/bson" name="android_external_bson" remote="cm" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" />
   <project path="external/bzip2" name="android_external_bzip2" groups="pdk" remote="cm" />
   <project path="external/checkpolicy" name="android_external_checkpolicy" groups="pdk" remote="cm" />
@@ -190,6 +191,7 @@
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" remote="cm" />
   <project path="external/connectivity" name="android_external_connectivity" remote="cm" />
   <project path="external/crda" name="android_external_crda" remote="cm" />
+  <project path="external/curl" name="android_external_curl" remote="cm" />
   <project path="external/dexmaker" name="android_external_dexmaker" remote="cm" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="cm" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" groups="pdk" remote="cm" />
