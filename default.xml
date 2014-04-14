@@ -267,6 +267,7 @@
   <project path="external/libppp" name="android_external_libppp" remote="cm" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" remote="cm" />
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" remote="cm" />
+  <project path="external/libtar" name="android_external_libtar" remote="cm" />
   <project path="external/libusb" name="android_external_libusb" remote="cm" />
   <project path="external/libusbx" name="android_external_libusbx" remote="cm" />
   <project path="external/libusb-compat" name="android_external_libusb-compat" remote="cm" />
