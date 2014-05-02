@@ -166,6 +166,7 @@
   <project path="external/aac" name="android_external_aac" groups="pdk" remote="cm" />
   <project path="external/android-clat" name="android_external_android-clat" remote="cm" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" />
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
   <project path="external/ant-glob" name="android_external_ant-glob" remote="cm" />
   <project path="external/antlr" name="android_external_antlr" remote="cm" />
   <project path="external/apache-harmony" name="android_external_apache-harmony" remote="cm" />
