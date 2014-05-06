@@ -211,6 +211,7 @@
   <project path="external/eyes-free" name="android_external_eyes-free" remote="cm" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" />
   <project path="external/fdlibm" name="android_external_fdlibm" remote="cm" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" />
   <project path="external/flac" name="android_external_flac" groups="pdk" remote="cm" />
   <project path="external/freetype" name="android_external_freetype" groups="pdk" remote="cm" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" />
@@ -325,6 +326,7 @@
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cm" />
   <project path="external/srec" name="android_external_srec" remote="cm" />
   <project path="external/srtp" name="android_external_srtp" remote="cm" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" />
   <project path="external/stlport" name="android_external_stlport" groups="pdk" remote="cm" />
   <project path="external/strace" name="android_external_strace" remote="cm" />
   <project path="external/stressapptest" name="android_external_stressapptest" remote="cm" />
