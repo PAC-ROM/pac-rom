@@ -153,7 +153,6 @@
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" />
   <project path="dalvik" name="android_dalvik" remote="cm" />
-  <project path="development" name="android_development" remote="cm" />
   <project path="device/common" name="android_device_common" remote="cm" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" remote="cm" />
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" remote="cm" />
@@ -473,6 +472,7 @@
   <project path="build" name="android_build" groups="pdk" remote="pac" revision="pac-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="development" name="android_development" remote="pac" revision="pac-4.4" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pac" revision="pac-4.4" />
