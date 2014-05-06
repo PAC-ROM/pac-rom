@@ -459,7 +459,6 @@
 
   <!-- Omnirom -->
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" revision="android-4.4" />
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-4.4" />
 
   <!-- PA -->
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="kitkat" />
@@ -494,6 +493,7 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="pac" revision="pac-4.4" />
   <!-- <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="pac" revision="pac-4.4" /> -->
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacConsole" name="pac_game_console" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PAClauncher" name="android_packages_apps_PAClauncher" remote="pac" revision="pac-4.4" />
