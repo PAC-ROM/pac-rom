@@ -152,6 +152,7 @@
   <project path="art" name="android_art" remote="cm" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" />
+  <project path="bootable/recovery-cm" name="android_bootable_recovery-cm" remote="cm" />
   <project path="dalvik" name="android_dalvik" remote="cm" />
   <project path="device/common" name="android_device_common" remote="cm" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" remote="cm" />
