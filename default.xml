@@ -4,7 +4,6 @@
   <!-- Main remote for the PMStaging-->
   <remote  name="pac"
            fetch="https://github.com/PMStaging" />
-           <!-- review="review.pac-rom.com" /> -->
 
   <!-- Main remote for Android -->
   <remote  name="aosp"
@@ -26,7 +25,7 @@
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
-           sync-j="8" />
+           sync-j="4" />
 
   <!-- AOSP -->         
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="cts" />
@@ -83,6 +82,7 @@
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -127,6 +127,7 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk,tools" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -139,7 +140,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
 
   <!-- CyanogenMod -->
-  <project path="android" name="android" remote="cm" />
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" remote="cm" />
   <project path="art" name="android_art" remote="cm" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="cm" />
@@ -402,7 +402,6 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" />
   <project path="libcore" name="android_libcore" remote="cm" />
   <project path="libnativehelper" name="android_libnativehelper" groups="pdk-java" remote="cm" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r2" remote="cm" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" remote="cm" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" />
@@ -471,7 +470,6 @@
   <project path="packages/wallpapers/MusicVisualization" name="android_packages_wallpapers_MusicVisualization" remote="cm" />
   <project path="packages/wallpapers/NoiseField" name="android_packages_wallpapers_NoiseField" remote="cm" />
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" />
-  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" remote="cm" />
   <project path="prebuilt" name="android_prebuilt" remote="cm" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" groups="pdk" remote="cm" />
   <project path="sdk" name="android_sdk" remote="cm" />
@@ -489,12 +487,11 @@
   <project path="build" name="android_build" groups="pdk" remote="pac" revision="pac-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="development" name="android_development" remote="pac" revision="pac-4.4" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-4.4" />
-  <project path="system/core" name="android_system_core" groups="pdk" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" revision="pac-4.4" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
