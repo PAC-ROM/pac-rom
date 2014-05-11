@@ -490,6 +490,7 @@
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/PacConsole" name="pac_game_console" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-4.4" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" revision="pac-4.4" >
