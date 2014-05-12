@@ -478,6 +478,7 @@
   <project path="prebuilt" name="android_prebuilt" remote="cm" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" groups="pdk" remote="cm" />
   <project path="sdk" name="android_sdk" remote="cm" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="cm" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="cm" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" />
@@ -499,7 +500,6 @@
   <project path="packages/apps/PacConsole" name="pac_game_console" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pacl" revision="pac-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-4.4" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" revision="pac-4.4" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
