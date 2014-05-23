@@ -410,7 +410,6 @@
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
-  <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="cm" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
   <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
@@ -483,6 +482,7 @@
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="pac" revision="pac-4.4"/>
+  <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="pac" revision="pac-4.4" />
