@@ -471,6 +471,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="development" name="android_development" remote="pac" revision="pac-4.4" />
+  <project path="external/openvpn" name="android_external_openvpn" groups="pdk" remote="pac" revision="pac-4.4"/>
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pac" revision="pac-4.4" />
