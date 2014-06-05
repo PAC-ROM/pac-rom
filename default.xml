@@ -250,6 +250,7 @@
   <project path="external/jpeg" name="android_external_jpeg" groups="pdk" remote="cm" />
   <project path="external/jsilver" name="android_external_jsilver" remote="cm" />
   <project path="external/jsr305" name="android_external_jsr305" remote="cm" />
+  <project path="external/jsr330" name="android_external_jsr330" remote="cm" />
   <project path="external/junit" name="android_external_junit" remote="cm" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="cm" />
   <project path="external/kissfft" name="android_external_kissfft" remote="cm" />
