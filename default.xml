@@ -86,7 +86,6 @@
   <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" remote="aosp" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" />
   <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" remote="aosp" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" remote="aosp" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" />
@@ -322,6 +321,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="cm" />
   <project path="external/cardslib" name="android_external_cardslib" remote="cm" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="cm" />
   <project path="external/connectivity" name="android_external_connectivity" remote="cm" />
   <project path="external/curl" name="android_external_curl" remote="cm" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs" remote="cm" />
