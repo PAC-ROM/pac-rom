@@ -190,6 +190,7 @@
   <project path="external/checkpolicy" name="android_external_checkpolicy" groups="pdk" remote="cm" />
   <project path="external/chromium" name="android_external_chromium" remote="cm" />
   <project path="external/chromium-trace" name="android_external_chromium-trace" groups="pdk" remote="cm" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" />
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="cm" />
   <project path="external/clang" name="android_external_clang" groups="pdk" remote="cm" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" remote="cm" />
@@ -474,7 +475,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="development" name="android_development" remote="pac" revision="pac-4.4" />
-  <project path="external/chromium_org" name="android_external_chromium_org" remote="pac" revision="pac-4.4" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pac" revision="pac-4.4" />
