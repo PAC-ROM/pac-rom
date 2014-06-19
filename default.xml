@@ -424,6 +424,7 @@
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
   <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="cm" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
+  <project path="packages/apps/CMHome" name="android_packages_apps_CMHome" remote="cm" />
   <project path="packages/apps/CMUpdater" name="android_packages_apps_CMUpdater" remote="cm" />
   <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="cm" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" />
@@ -480,6 +481,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="android_packages_wallpapers_MusicVisualization" remote="cm" />
   <project path="packages/wallpapers/NoiseField" name="android_packages_wallpapers_NoiseField" remote="cm" />
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" />
+  <project path="packages/wallpapers/PhotoPhase" name="android_packages_wallpapers_PhotoPhase" remote="cm" />
   <project path="prebuilt" name="android_prebuilt" remote="cm" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" groups="pdk" remote="cm" />
   <project path="sdk" name="android_sdk" remote="cm" />
