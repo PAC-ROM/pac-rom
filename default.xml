@@ -415,6 +415,7 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
+  <project path="packages/apps/CMHome" name="android_packages_apps_CMHome" remote="cm" />
   <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" />
@@ -428,6 +429,7 @@
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" />
   <project path="packages/apps/VideoEditor" name="android_packages_apps_VideoEditor" remote="cm" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" />
   <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" />
@@ -502,7 +504,6 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacConsole" name="pac_game_console" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" revision="pac-4.4" />
-  <project path="packages/apps/PAClauncher" name="android_packages_apps_PAClauncher" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PACPerformance" name="android_packages_apps_PACPerformance" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="pac" revision="pac-4.4" />
