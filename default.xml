@@ -307,6 +307,7 @@
   <project path="external/openfst" name="android_external_openfst" remote="cm" />
   <project path="external/openssh" name="android_external_openssh" remote="cm" />
   <project path="external/openssl" name="android_external_openssl" groups="pdk" remote="cm" />
+  <project path="external/openvpn" name="android_external_openvpn" groups="pdk" remote="cm" />
   <project path="external/oprofile" name="android_external_oprofile" remote="cm" />
   <project path="external/pciutils" name="android_external_pciutils" remote="cm" />
   <project path="external/pigz" name="android_external_pigz" remote="cm" />
@@ -478,7 +479,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="development" name="android_development" remote="pac" revision="pac-4.4" />
-  <project path="external/openvpn" name="android_external_openvpn" groups="pdk" remote="pac" revision="pac-4.4"/>
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pac" revision="pac-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pac" revision="pac-4.4" />
