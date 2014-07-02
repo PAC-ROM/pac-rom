@@ -423,7 +423,6 @@
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="cm" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
-  <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="cm" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
   <project path="packages/apps/CMHome" name="android_packages_apps_CMHome" remote="cm" />
   <project path="packages/apps/CMUpdater" name="android_packages_apps_CMUpdater" remote="cm" />
@@ -502,6 +501,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/CMAccount" name="packages_apps_CMAccount" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pacl" revision="pac-4.4" />
   <project path="packages/apps/PacConsole" name="pac_game_console" remote="pacl" revision="pac-4.4" />
   <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pacl" revision="pac-4.4" />
