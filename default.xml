@@ -167,6 +167,7 @@
   <project path="device/google/accessory/arduino" name="android_device_google_accessory_arduino" groups="device" remote="cm" />
   <project path="device/google/accessory/demokit" name="android_device_google_accessory_demokit" groups="device" remote="cm" />
   <project path="device/sample" name="android_device_sample" groups="device" remote="cm" />
+  <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" remote="cm" />
   <project path="external/aac" name="android_external_aac" groups="pdk" remote="cm" />
   <project path="external/android-clat" name="android_external_android-clat" remote="cm" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" />
@@ -330,6 +331,8 @@
   <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="cm" />
   <project path="external/speex" name="android_external_speex" groups="pdk" remote="cm" />
   <project path="external/spongycastle" name="android_external_spongycastle" groups="pdk" remote="cm" />
+  <project path="external/square/javawriter" name="android_external_square_javawriter" remote="cm" />
+  <project path="external/square/dagger" name="android_external_square_dagger" remote="cm" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cm" />
   <project path="external/srec" name="android_external_srec" remote="cm" />
   <project path="external/srtp" name="android_external_srtp" remote="cm" />
