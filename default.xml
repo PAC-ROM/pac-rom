@@ -32,7 +32,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <!-- AOSP -->         
+  <!-- AOSP -->
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.4_r1" groups="cts" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
@@ -185,6 +185,7 @@
   <project path="external/bson" name="android_external_bson" remote="cm" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" />
   <project path="external/bzip2" name="android_external_bzip2" groups="pdk" remote="cm" />
+  <project path="external/cardslib" name="android_external_cardslib" remote="cm" />
   <project path="external/checkpolicy" name="android_external_checkpolicy" groups="pdk" remote="cm" />
   <project path="external/chromium" name="android_external_chromium" remote="cm" />
   <project path="external/chromium-trace" name="android_external_chromium-trace" groups="pdk" remote="cm" />
@@ -239,6 +240,7 @@
   <project path="external/ipsec-tools" name="android_external_ipsec-tools" remote="cm" />
   <project path="external/iptables" name="android_external_iptables" remote="cm" />
   <project path="external/jack" name="android_external_jack" remote="cm" />
+  <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" remote="cm" />
   <project path="external/javasqlite" name="android_external_javasqlite" remote="cm" />
   <project path="external/javassist" name="android_external_javassist" remote="cm" />
   <project path="external/jdiff" name="android_external_jdiff" remote="cm" />
@@ -248,6 +250,8 @@
   <project path="external/jpeg" name="android_external_jpeg" groups="pdk" remote="cm" />
   <project path="external/jsilver" name="android_external_jsilver" remote="cm" />
   <project path="external/jsr305" name="android_external_jsr305" remote="cm" />
+  <project path="external/jsr308" name="android_external_jsr308" remote="cm" />
+  <project path="external/jsr330" name="android_external_jsr330" remote="cm" />
   <project path="external/junit" name="android_external_junit" remote="cm" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="cm" />
   <project path="external/kissfft" name="android_external_kissfft" remote="cm" />
@@ -327,6 +331,8 @@
   <project path="external/speex" name="android_external_speex" groups="pdk" remote="cm" />
   <project path="external/spongycastle" name="android_external_spongycastle" groups="pdk" remote="cm" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cm" />
+  <project path="external/square/dagger" name="android_external_square_dagger" remote="cm" />
+  <project path="external/square/javawriter" name="android_external_square_javawriter" remote="cm" />
   <project path="external/srec" name="android_external_srec" remote="cm" />
   <project path="external/srtp" name="android_external_srtp" remote="cm" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" />
