@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Main remote for the PMStaging-->
+  <!-- Main remote for the PAC-man -->
   <remote  name="pac"
            fetch="https://github.com/PAC-man"
            review="review.pac-rom.com" />
@@ -497,13 +497,13 @@
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" revision="cm-11.0" />
 
-  <!-- PMStaging -->
+  <!-- PAC-man -->
   <project path="pacman" name="pacman" remote="pac" revision="pac-4.4" />
   <project path="build" name="android_build" groups="pdk" remote="pac" revision="pac-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
-  <project path="packages/apps/CMAccount" name="packages_apps_CMAccount" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacConsole" name="pac_game_console" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pac" revision="pac-4.4" />
