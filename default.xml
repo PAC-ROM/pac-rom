@@ -434,8 +434,6 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cm" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" />
-  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="cm" />
@@ -504,6 +502,8 @@
   </project>
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacConsole" name="pac_game_console" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pac" revision="pac-4.4" />
