@@ -165,6 +165,8 @@
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
   <project path="external/ant-glob" name="android_external_ant-glob" remote="cm" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="cm" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="cm" />
   <project path="external/antlr" name="android_external_antlr" remote="cm" />
   <project path="external/apache-harmony" name="android_external_apache-harmony" remote="cm" />
   <project path="external/apache-http" name="android_external_apache-http" remote="cm" />
