@@ -144,7 +144,7 @@
 
   <!-- CyanogenMod -->
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" remote="cm" />
-  <project path="art" name="android_art" remote="cm" />
+  <project path="art" name="knowpatience/android_art" remote="github" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="cm" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" />
