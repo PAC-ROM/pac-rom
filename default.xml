@@ -434,11 +434,9 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cm" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cm" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="cm" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cm" />
@@ -474,7 +472,6 @@
   <project path="packages/screensavers/Basic" name="android_packages_screensavers_Basic" remote="cm" />
   <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" remote="cm" />
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" remote="cm" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="cm" />
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="cm" />
   <project path="packages/wallpapers/Galaxy4" name="android_packages_wallpapers_Galaxy4" remote="cm" />
   <project path="packages/wallpapers/HoloSpiral" name="android_packages_wallpapers_HoloSpiral" remote="cm" />
@@ -508,14 +505,17 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-4.4" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pac" revision="pac-4.4" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacConsole" name="pac_game_console" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PACPerformance" name="android_packages_apps_PACPerformance" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-4.4" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pac" revision="pac-4.4" />
   <project path="pacman" name="pacman" remote="pac" revision="pac-4.4" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" revision="pac-4.4" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
