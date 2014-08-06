@@ -49,10 +49,9 @@ To view the status of your and others patches, visit [PAC-man Code Review](http:
 Getting Started
 ---------------
 
-To get started with PAC-man, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
+The first thing to do is prepare your machine to build, [use this guide for that!](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/PrepareForBuild.md) if your machine is already configured to build, skip this step
 
-Setup build environment - http://forum.xda-developers.com/showthread.php?t=2224142
+After preparing your machine, continue with the following instructions:
 
 To initialize your local repository using the PAC-man trees, use a command like this:
 
