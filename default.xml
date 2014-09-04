@@ -167,6 +167,7 @@
   <project path="external/ant-glob" name="android_external_ant-glob" remote="cm" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="cm" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="cm" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="cm" />
   <project path="external/antlr" name="android_external_antlr" remote="cm" />
   <project path="external/apache-harmony" name="android_external_apache-harmony" remote="cm" />
   <project path="external/apache-http" name="android_external_apache-http" remote="cm" />
