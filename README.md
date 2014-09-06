@@ -55,15 +55,11 @@ After preparing your machine, continue with the following instructions:
 
 To initialize your local repository using the PAC-man trees, use a command like this:
 
-    repo init -u git://github.com/PAC-man/pacman.git -b <branch> -g all,-notdefault,<linux or darwin>
+    repo init -u git://github.com/PAC-man/pacman.git -b <branch>
 
-To initialize for KitKat on Linux
+To initialize for KitKat
 
-    repo init -u git://github.com/PAC-man/pacman.git -b pac-4.4 -g all,-notdefault,linux
-
-To initialize for KitKat on MacOS
-
-    repo init -u git://github.com/PAC-man/pacman.git -b pac-4.4 -g all,-notdefault,darwin
+    repo init -u git://github.com/PAC-man/pacman.git -b pac-4.4
 
 Then to sync up:
 
