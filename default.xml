@@ -23,6 +23,10 @@
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
 
+  <remote  name="omnirom"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
+
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
@@ -497,6 +501,9 @@
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" revision="cm-11.0" />
   <project path="hardware/qcom/media-legacy" name="androidarmv6/android_hardware_qcom_media-legacy" revision="cm-11.0" />
+
+  <!-- OMNIROM -->
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="omnirom" revision="android-4.4" />
 
   <!-- PAC-man -->
   <project path="build" name="android_build" groups="pdk" remote="pac" revision="pac-4.4" >
