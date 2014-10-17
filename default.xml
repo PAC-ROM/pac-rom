@@ -294,7 +294,7 @@
   <project path="external/markdown" name="android_external_markdown" remote="cm" />
   <project path="external/mdnsresponder" name="android_external_mdnsresponder" groups="pdk" remote="cm" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="cm" />
-  <project path="external/mockito" name="android_external_mockito" remote="cm" />
+  <project path="external/mockito" name="android_external_mockito" remote="cm" revision="1.9.5" />
   <project path="external/mockwebserver" name="android_external_mockwebserver" remote="cm" />
   <project path="external/mp4parser" name="android_external_mp4parser" remote="cm" />
   <project path="external/mtpd" name="android_external_mtpd" remote="cm" />
