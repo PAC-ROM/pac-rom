@@ -279,6 +279,7 @@
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" remote="cm" />
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" remote="cm" />
   <project path="external/libtar" name="android_external_libtar" remote="cm" />
+  <project path="external/libtruezip" name="android_external_libtruezip" remote="cm" />
   <project path="external/libusb" name="android_external_libusb" remote="cm" />
   <project path="external/libusbx" name="android_external_libusbx" remote="cm" />
   <project path="external/libusb-compat" name="android_external_libusb-compat" remote="cm" />
@@ -350,6 +351,7 @@
   <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" remote="cm" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" remote="cm" />
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="cm" />
+  <project path="external/unrar" name="android_external_unrar" remote="cm" />
   <project path="external/v8" name="android_external_v8" remote="cm" />
   <project path="external/valgrind" name="android_external_valgrind" groups="pdk" remote="cm" />
   <project path="external/vim" name="android_external_vim" remote="cm" />
@@ -362,6 +364,7 @@
   <project path="external/xmlwriter" name="android_external_xmlwriter" remote="cm" />
   <project path="external/xmp_toolkit" name="android_external_xmp_toolkit" remote="cm" />
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" remote="cm" />
+  <project path="external/zip" name="android_external_zip" remote="cm" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="cm" />
   <project path="external/zxing" name="android_external_zxing" remote="cm" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cm" />
