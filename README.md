@@ -40,7 +40,7 @@ OR you can use the convential method:
     <make edits>
     git add -A
     git commit -m "Message"
-    git push ssh://<username>@review.pac-rom.com:29418/<project> HEAD:refs/for/pac-4.4
+    git push ssh://<username>@review.pac-rom.com:29418/<project> HEAD:refs/for/pac-5.0
 
 
 Register at [PAC-man Gerrit] (http://review.pac-rom.com) and use the username that you registered under with git-review. Make sure to add your ssh keys to your Gerrit profile
@@ -58,7 +58,7 @@ To view the status of your and others patches, visit [PAC-man Code Review](http:
 Getting Started
 ---------------
 
-The first thing to do is prepare your machine to build, [use this guide for that!](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/PrepareForBuild.md) if your machine is already configured to build, skip this step
+The first thing to do is prepare your machine to build, [use this guide for that!](https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/PrepareForBuild.md) if your machine is already configured to build, skip this step
 
 After preparing your machine, continue with the following instructions:
 
@@ -68,11 +68,11 @@ To initialize your local repository using the PAC-man trees, use a command like 
 
 To initialize for KitKat on Linux
 
-    repo init -u git://github.com/PAC-man/pacman.git -b pac-4.4 -g all,-notdefault,-darwin
+    repo init -u git://github.com/PAC-man/pacman.git -b pac-5.0 -g all,-notdefault,-darwin
 
 To initialize for KitKat on MacOS
 
-    repo init -u git://github.com/PAC-man/pacman.git -b pac-4.4 -g all,-notdefault,-linux
+    repo init -u git://github.com/PAC-man/pacman.git -b pac-5.0 -g all,-notdefault,-linux
 
 Then to sync up:
 
@@ -102,6 +102,6 @@ For an o3 optimization and Dex optimisations -if you don't understand, best to l
 You can also add a -j# before device_code_name for a selected number of jobs, usually No. of cores + 1 or 2
 
 
-Device isn't supported? Not a problem, see [Adding Support] (https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/README.md) for how to add device support!
+Device isn't supported? Not a problem, see [Adding Support] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/README.md) for how to add device support!
 
 For information on how to build a general ROM from source, check [Here](http://forum.xda-developers.com/showthread.php?t=2649812)
