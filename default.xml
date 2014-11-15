@@ -316,6 +316,7 @@
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" remote="cm" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="cm" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" remote="cm" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="cm" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
   <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs" remote="cm" />
