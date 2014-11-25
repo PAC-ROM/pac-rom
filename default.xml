@@ -339,6 +339,7 @@
   <project path="external/ebtables" name="android_external_ebtables" remote="cm" />
   <project path="external/exfat" name="android_external_exfat" remote="cm" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="cm" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" groups="pdk" remote="cm" />
   <project path="external/flac" name="android_external_flac" groups="pdk" remote="cm" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk-cw-fs" remote="cm" />
   <project path="external/fuse" name="android_external_fuse" remote="cm" />
@@ -394,6 +395,7 @@
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cm" />
   <project path="external/square/dagger" name="android_external_square_dagger" remote="cm" />
   <project path="external/square/javawriter" name="android_external_square_javawriter" remote="cm" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" />
   <project path="external/strace" name="android_external_strace" groups="pdk-cw-fs" remote="cm" />
   <project path="external/svox" name="android_external_svox" groups="pdk-cw-fs" remote="cm" />
   <project path="external/tcpdump" name="android_external_tcpdump" groups="pdk,pdk-cw-fs" remote="cm" />
