@@ -558,7 +558,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-5.0" />
-  <project path="packages/apps/PacConsole" name="android_packages_apps_PacConsole" remote="pac" revision="pac-5.0" />
+  <!-- <project path="packages/apps/PacConsole" name="android_packages_apps_PacConsole" remote="pac" revision="pac-5.0" /> -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-5.0" />
   <project path="pacman" name="pacman" remote="pac" revision="pac-5.0" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" revision="pac-5.0" >
