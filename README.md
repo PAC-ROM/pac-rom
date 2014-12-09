@@ -66,11 +66,11 @@ To initialize your local repository using the PAC-man trees, use a command like 
 
     repo init -u git://github.com/PAC-man/pacman.git -b <branch>
 
-To initialize for KitKat on Linux
+To initialize for Lollipop on Linux
 
     repo init -u git://github.com/PAC-man/pacman.git -b pac-5.0 -g all,-notdefault,-darwin
 
-To initialize for KitKat on MacOS
+To initialize for Lollipop on MacOS
 
     repo init -u git://github.com/PAC-man/pacman.git -b pac-5.0 -g all,-notdefault,-linux
 
