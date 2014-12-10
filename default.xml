@@ -475,6 +475,7 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" />
   <project path="libcore" name="android_libcore" remote="cm" />
   <project path="libnativehelper" name="android_libnativehelper" groups="pdk-java" remote="cm" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="cm" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" remote="cm" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" />
@@ -493,7 +494,6 @@
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cm" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cm" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
