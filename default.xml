@@ -555,7 +555,6 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-5.0" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="pac" revision="pac-5.0" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="pac" revision="pac-5.0" />
-  <project path="packages/apps/PACPerformance" name="android_packages_apps_PACPerformance" remote="pac" revision="pac-5.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-5.0" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="pac" revision="pac-5.0" />
   <project path="pacman" name="pacman" remote="pac" revision="pac-5.0" />
