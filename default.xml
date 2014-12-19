@@ -388,7 +388,6 @@
   <project path="external/protobuf-c" name="android_external_protobuf-c" remote="cm" />
   <project path="external/qrngd" name="android_external_qrngd" remote="cm" />
   <project path="external/rsync" name="android_external_rsync" remote="cm" />
-  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cm" />
   <project path="external/skia" name="android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="cm" />
   <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="cm" />
   <project path="external/speex" name="android_external_speex" groups="pdk" remote="cm" />
@@ -550,6 +549,7 @@
   <project path="build" name="android_build" groups="pdk,tradefed" remote="pac" revision="pac-5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="pac" revision="pac-5.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" revision="pac-5.0" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="pac" revision="pac-5.0" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="pac" revision="pac-5.0" />
