@@ -23,6 +23,10 @@
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
 
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
+
   <default revision="refs/heads/cm-12.0"
            remote="github"
            sync-c="true"
@@ -549,6 +553,9 @@
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
+
+  <!-- OmniROM -->
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omni" revision="android-5.0" />
 
   <!-- PAC-man -->
   <project path="build" name="android_build" groups="pdk,tradefed" remote="pac" revision="pac-5.0" >
