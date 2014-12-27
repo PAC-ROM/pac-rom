@@ -387,6 +387,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" />
   <project path="external/okhttp" name="android_external_okhttp" groups="pdk-cw-fw" remote="cm" />
   <project path="external/openssl" name="android_external_openssl" remote="cm" />
+  <project path="external/openvpn" name="android_external_openvpn" remote="cm" revision="cm-11.0" />
   <project path="external/pciutils" name="android_external_pciutils" remote="cm" />
   <project path="external/pigz" name="android_external_pigz" remote="cm" />
   <project path="external/protobuf-c" name="android_external_protobuf-c" remote="cm" />
