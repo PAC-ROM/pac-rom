@@ -363,8 +363,6 @@
   <project path="external/jsr330" name="android_external_jsr330" remote="cm" />
   <project path="external/kissfft" name="android_external_kissfft" remote="cm" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" />
-  <project path="external/koush/Superuser" name="Superuser" remote="cm" />
-  <project path="external/koush/Widgets" name="Widgets" remote="cm" />
   <project path="external/koush/ion" name="ion" remote="cm" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="cm" />
@@ -377,6 +375,7 @@
   <project path="external/libtruezip" name="android_external_libtruezip" remote="cm" />
   <project path="external/libusb" name="android_external_libusb" groups="pdk-cw-fs" remote="cm" />
   <project path="external/libusbx" name="android_external_libusbx" remote="cm" />
+  <project path="external/libvterm" name="android_external_libvterm" remote="cm" />
   <project path="external/libxml2" name="android_external_libxml2" groups="pdk-cw-fs" remote="cm" />
   <project path="external/libxslt" name="android_external_libxslt" remote="cm" />
   <project path="external/linux-tools-perf" name="android_external_linux-tools-perf" groups="pdk-cw-fs" remote="cm" />
@@ -514,6 +513,7 @@
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" />
+  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="cm" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="cm" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" />
@@ -545,6 +545,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" />
   <project path="packages/wallpapers/PhotoPhase" name="android_packages_wallpapers_PhotoPhase" remote="cm" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" />
+  <project path="system/extras/su" name="android_system_extras_su" remote="cm" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="cm" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" />
