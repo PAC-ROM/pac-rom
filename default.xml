@@ -23,6 +23,10 @@
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
 
+  <remote  name="cyngn"
+           fetch="https://github.com/cyngn"
+           review="review.cyanogenmod.org" />
+
   <remote  name="omni"
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
@@ -555,6 +559,9 @@
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
+
+  <!-- cyngn -->
+  <project path="vendor/cyngn" name="android_vendor_cyngn" remote="cyngn" />
 
   <!-- OmniROM -->
   <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="omni" revision="android-5.0" />
