@@ -1,117 +1,26 @@
-PAC-ROM - The AIO ROM!
-======================
+[![Alt text](http://wiki.pac-rom.com/images/3/39/Pac.png)](http://www.pac-rom.com)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Alt text](http://wiki.pac-rom.com/images/2/24/Jenkins.png "Jenkins Builds ")](http://www.pvyparts.com/php-tester/jenkinsBuilds.php)
+[![Alt text](http://wiki.pac-rom.com/images/c/c9/Logo.png "Jenkins ")](https://jenkins.pac-rom.com)
+[![Alt text](http://wiki.pac-rom.com/images/a/aa/Stats.png "Stats ")](http://pac-rom.com/#Stats)
+[![Alt text](http://wiki.pac-rom.com/images/3/3e/Gerrit.png "Gerrit ")](http://review.pac-rom.com)
+[![Alt text](http://wiki.pac-rom.com/images/9/9e/Forum.png "Forum ")](http://forum.pac-rom.com)
+[![Alt text](http://wiki.pac-rom.com/images/2/28/Google+.png "Google+ ")](https://plus.google.com/+Pac-rom)
+[![Alt text](http://wiki.pac-rom.com/images/1/1b/Google+c.png "Google+ Community")](https://plus.google.com/communities/103029729817409918322)
+[![Alt text](http://wiki.pac-rom.com/images/f/f7/Twitter.png "Twitter ")](https://twitter.com/PACROMS)
+[![Alt text](http://wiki.pac-rom.com/images/5/55/Facebook.png "Facebook ")](https://www.facebook.com/PACmanROMS)
+[![Alt text](http://wiki.pac-rom.com/images/f/f1/Download.png "Downloads ")](https://s.basketbuild.com/devs/pacman)
+[![Alt text](http://wiki.pac-rom.com/images/d/d3/Crowdin.png "Crowdin ")](https://crowdin.com/project/pac-rom)
+[![Alt text](http://wiki.pac-rom.com/images/1/10/Jira.png "JIRA Issue Tracker")](http://jira.pac-rom.com)
+[![Alt text](http://wiki.pac-rom.com/images/b/bc/Wiki.png "WiKi ")](http://wiki.pac-rom.com)
 
-Support Our Sites
-=================
+######Support Our Sites, We have created many different ways for you to follow us. Please visit us and support our work and efforts.
 
-We have created many different ways to follow us. Please visit and support our efforts.
+**How to use Gerrit [Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/HowToUseGerrit.md)**
 
-[PAC-ROM Website] (http://www.pac-rom.com/)
+**Sharing Policy [Please Read] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/SharingPolicy.md)**
 
-[PAC-ROM Forum] (http://forum.pac-rom.com/)
+**Getting Started: Preparing and building [Linux Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/PrepareForBuildLinux.md) [Mac OS Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/PrepareForBuildMac.md)**
 
-[PAC-ROM Downloads] (http://pacman.basketbuild.com/)
-
-[PAC-ROM Gerrit] (http://review.pac-rom.com/)
-
-[PAC-ROM GitHub] (http://review.pac-rom.com/)
-
-[PAC-ROM Stats] (http://pac-rom.com/#Stats)
-
-[PAC-ROM Google+] (https://plus.google.com/102557242936341392082/posts/)
-
-[PAC-ROM Twitter] (https://twitter.com/pacroms/)
-
-[PAC-ROM Facebook] (https://www.facebook.com/PACmanROMS/)
-
-[PAC-ROM Jenkins] (https://jenkins.pac-rom.com/)
-
-
-Instructions for sending to Gerrit
-==================================
-
-We're open source, and patches are always welcome!
-
-Register at [Gerrit Code Review] (http://review.pac-rom.com/) and use the username that you registered with when using git-review. Make sure to add your ssh keys to your Gerrit profile. You must accept the [Contributors Agreement] (http://review.pac-rom.com/#/settings/agreements/) before submitting to Gerrit.
-
-You can send patches by using these commands:
-
-    sudo apt-get install git-review
-    git clone https://github.com/PAC-man/<project>
-    cd <project>
-    <make edits>
-    git add -A
-    git commit -m "Message"
-    git-review
-
-OR you can use the convential method:
-
-    cd <project>
-    <make edits>
-    git add -A
-    git commit -m "Message"
-    git push ssh://<username>@review.pac-rom.com:29418/<project> HEAD:refs/for/pac-5.0
-
-
-The git-review package will only have to be installed once.
-
-If you are going to make additional edits, just repeat steps, but instead of using:
-
-    git commit -m "Message"
-
-use:
-
-    git commit --amend
-
-Gerrit will recognize it as a new patch-set.
-
-To view the status of your and others' patches, visit [Gerrit Code Review] (http://review.pac-rom.com/).
-
-
-Getting Started
-===============
-
-The first thing to do is prepare your machine to build, [Use this guide for that!] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/PrepareForBuild.md) if your machine is already configured to build, skip this step.
-
-After preparing your machine, continue with the following instructions:
-
-To initialize your local repository using the PAC-ROM trees, use a command like this:
-
-    repo init -u git://github.com/PAC-man/pacman.git -b <branch>
-
-To initialize for Lollipop on Linux:
-
-    repo init -u git://github.com/PAC-man/pacman.git -b pac-5.0 -g all,-notdefault,-darwin
-
-To initialize for Lollipop on MacOS:
-
-    repo init -u git://github.com/PAC-man/pacman.git -b pac-5.0 -g all,-notdefault,-linux
-
-Then to sync up:
-
-    repo sync -j#
-
-Where # is the specific number of jobs, 4 is default, change in accordance to internet performance/bandwidth/speed. Default is 4.
-
-Then to build:
-
-    ./build-pac.sh <device_codename>
-
-Example for Nexus 5:
-
-    ./build-pac.sh hammerhead
-
-For a list of supported commands run the script on it's own:
-
-    ./build-pac.sh
-
-To build with flags, this is the layout needed:
-    ./build-pac.sh <optional_flags> <device_codename>
-
-You can also add a -j# before device_codename for a selected number of jobs, usually number of cores + 1 or 2.
-
-
-Device isn't supported? Not a problem, see [Adding Support] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/README.md) for how to add device support!
-
-For information on how to build a general ROM from source, check [Here] (http://forum.xda-developers.com/showthread.php?t=2649812).
+**Device isn't supported? Not a problem! [Read] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/BecomeAMaintainer.md)**
