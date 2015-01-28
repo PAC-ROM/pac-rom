@@ -512,7 +512,6 @@
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="cm" />
-  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" />
   <project path="packages/experimental" name="android_packages_experimental" remote="cm" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cm" />
   <project path="packages/inputmethods/OpenWnn" name="android_packages_inputmethods_OpenWnn" remote="cm" />
