@@ -377,6 +377,7 @@
   <project path="external/nist-sip" name="android_external_nist-sip" groups="pdk-cw-fs" remote="cm" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" />
   <project path="external/okhttp" name="android_external_okhttp" groups="pdk-cw-fw" remote="cm" />
+  <project path="external/openssh" name="android_external_openssh" remote="cm" />
   <project path="external/openssl" name="android_external_openssl" remote="cm" />
   <project path="external/openvpn" name="android_external_openvpn" remote="cm" revision="cm-11.0" />
   <project path="external/pciutils" name="android_external_pciutils" remote="cm" />
