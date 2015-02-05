@@ -6,11 +6,6 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-5.0.2_r1" />
 
-  <remote  name="pac"
-           fetch="https://github.com/PAC-man"
-           review="review.pac-rom.com"
-           revision="refs/heads/pac-5.0" />
-
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org"
@@ -26,10 +21,15 @@
            review="gerrit.omnirom.org"
            revision="refs/heads/android-5.0" />
 
+  <remote  name="pac"
+           fetch="https://github.com/PAC-man"
+           review="review.pac-rom.com" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
-  <default remote="github"
+  <default revision="refs/heads/pac-5.0"
+           remote="github"
            sync-c="true"
            sync-j="8" />
 
