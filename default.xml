@@ -541,6 +541,7 @@
   <project path="packages/wallpapers/NoiseField" name="android_packages_wallpapers_NoiseField" remote="cm" />
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" />
   <project path="packages/wallpapers/PhotoPhase" name="android_packages_wallpapers_PhotoPhase" remote="cm" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="cm" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" />
   <project path="system/extras/su" name="android_system_extras_su" remote="cm" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" />
@@ -569,7 +570,6 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="pac" />
   <project path="pacman" name="pacman" remote="pac" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="pac" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
