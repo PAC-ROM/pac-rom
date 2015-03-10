@@ -500,6 +500,7 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="cm" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="cm" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="cm" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cm" />
