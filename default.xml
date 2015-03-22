@@ -19,7 +19,7 @@
   <remote  name="omni"
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org"
-           revision="refs/heads/android-5.1" />
+           revision="refs/heads/android-5.0" />
 
   <remote  name="pac"
            fetch="https://github.com/PAC-man"
