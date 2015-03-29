@@ -25,6 +25,12 @@
            fetch="https://github.com/PAC-man"
            review="review.pac-rom.com" />
 
+  <remote  name="ss"
+           fetch="https://github.com/Split-Screen" />
+
+  <remote  name="pic"
+           fetch="https://github.com/Pinky-Inky-and-Clyde" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
