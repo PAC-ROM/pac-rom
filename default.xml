@@ -9,7 +9,7 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org"
-           revision="refs/heads/staging/cm-12.1" />
+           revision="refs/heads/cm-12.1" />
 
   <remote  name="omni"
            fetch="https://github.com/omnirom"
