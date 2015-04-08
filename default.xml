@@ -92,7 +92,6 @@
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" remote="aosp" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
@@ -320,6 +319,7 @@
   <project path="external/cardslib" name="android_external_cardslib" remote="cm" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" />
   <project path="external/chromium_org/third_party/boringssl/src" name="android_external_chromium_org_third_party_boringssl_src" remote="cm" />
+  <project path="external/chromium_org/v8" name="android_external_chromium_org_v8" remote="cm" />
   <project path="external/connectivity" name="android_external_connectivity" remote="cm" />
   <project path="external/curl" name="android_external_curl" remote="cm" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs" remote="cm" />
