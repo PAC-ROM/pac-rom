@@ -163,7 +163,6 @@
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" remote="aosp" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" remote="aosp" />
@@ -361,6 +360,7 @@
   <project path="external/libtruezip" name="android_external_libtruezip" remote="cm" />
   <project path="external/libusb" name="android_external_libusb" groups="pdk-cw-fs" remote="cm" />
   <project path="external/libusbx" name="android_external_libusbx" remote="cm" />
+  <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="cm" />
   <project path="external/libvterm" name="android_external_libvterm" remote="cm" />
   <project path="external/libxml2" name="android_external_libxml2" groups="pdk-cw-fs" remote="cm" />
   <project path="external/libxslt" name="android_external_libxslt" remote="cm" />
