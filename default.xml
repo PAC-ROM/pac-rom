@@ -554,6 +554,7 @@
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cm" />
 
   <!-- PAC-man -->
   <project path="build" name="android_build" groups="pdk,tradefed" remote="pac" >
