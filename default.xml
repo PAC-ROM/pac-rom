@@ -396,6 +396,9 @@
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="cm" />
   <project path="external/unrar" name="android_external_unrar" remote="cm" />
   <project path="external/vim" name="android_external_vim" remote="cm" />
+  <project path="external/whispersystems/curve25519" name="android_external_whispersystems_curve25519-java" remote="cm" />
+  <project path="external/whispersystems/libtextsecure" name="android_external_whispersystems_libtextsecure-java" remote="cm" />
+  <project path="external/whispersystems/libaxolotl" name="android_external_whispersystems_libaxolotl-android" remote="cm" />
   <project path="external/whispersystems/TextSecure" name="android_external_whispersystems_TextSecure" remote="cm" />
   <project path="external/whispersystems/WhisperPush" name="android_external_whispersystems_WhisperPush" remote="cm" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="cm" />
