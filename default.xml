@@ -4,25 +4,26 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-5.1.1_r1" />
+           revision="refs/tags/android-5.1.1_r2" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org"
            revision="refs/heads/cm-12.1" />
 
+  <remote  name="github"
+           fetch="https://github.com" />
+
   <remote  name="pac"
            fetch="https://github.com/PAC-man"
            review="review.pac-rom.com" />
 
-  <remote  name="ss"
-           fetch="https://github.com/Split-Screen" />
-
   <remote  name="pic"
            fetch="https://github.com/Pinky-Inky-and-Clyde" />
 
-  <remote  name="github"
-           fetch="https://github.com" />
+  <remote  name="ss"
+           fetch="https://github.com/Split-Screen"
+           review="review.pac-rom.com" />
 
   <default revision="refs/heads/pac-5.1"
            remote="github"
