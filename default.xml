@@ -170,7 +170,6 @@
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/lzma" name="platform/external/lzma" remote="aosp" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" />
   <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" />
@@ -381,6 +380,7 @@
   <project path="external/linux-tools-perf" name="android_external_linux-tools-perf" groups="pdk-cw-fs" remote="cm" />
   <project path="external/lsof" name="android_external_lsof" remote="cm" />
   <project path="external/lz4" name="android_external_lz4" remote="cm" />
+  <project path="external/lzma" name="android_external_lzma" remote="cm" />
   <project path="external/lzo" name="android_external_lzo" remote="cm" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="cm" />
   <project path="external/nano" name="android_external_nano" remote="cm" />
