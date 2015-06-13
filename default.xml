@@ -535,7 +535,6 @@
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="cm" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" />
-  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="cm" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="cm" />
   <project path="packages/experimental" name="android_packages_experimental" remote="cm" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cm" />
@@ -585,6 +584,7 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="pac" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" />
+  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="pac" />
   <project path="pacman" name="pacman" remote="pac" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
