@@ -580,6 +580,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" />
+  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="pac" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="pac" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="pac" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" />
