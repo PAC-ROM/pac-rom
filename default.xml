@@ -14,6 +14,11 @@
   <remote  name="github"
            fetch="https://github.com" />
 
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org"
+           revision="refs/heads/android-5.1" />
+
   <remote  name="pac"
            fetch="https://github.com/PAC-man"
            review="review.pac-rom.com" />
@@ -576,6 +581,9 @@
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cm" />
+
+  <!-- OmniROM -->
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="omni" />
 
   <!-- PAC-man -->
   <project path="build" name="android_build" groups="pdk,tradefed" remote="pac" >
