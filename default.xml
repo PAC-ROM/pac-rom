@@ -480,7 +480,6 @@
   <project path="hardware/qcom/display-caf/msm8610" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8610" remote="cm" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8916" remote="cm" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8960" remote="cm" />
-  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8974" remote="cm" />
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8994" remote="cm" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" remote="cm" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="cm" />
@@ -593,6 +592,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="pac" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="pac" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="pac" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="pac-5.1-caf-8974" remote="ss" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="pac" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" />
