@@ -20,7 +20,7 @@
            revision="refs/heads/android-5.1" />
 
   <remote  name="pac"
-           fetch="https://github.com/PAC-man"
+           fetch="https://github.com/PAC-ROM"
            review="review.pac-rom.com" />
 
   <remote  name="pic"

@@ -23,8 +23,8 @@
 
 ######Support Our Sites, We have created many different ways for you to follow us. Please visit us and support our work and efforts.
 
-**How to use Gerrit [Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.1/docs/HowToUseGerrit.md)**
+**How to use Gerrit [Guide] (https://github.com/PAC-ROM/android_vendor_pac/blob/pac-5.1/docs/HowToUseGerrit.md)**
 
-**Getting Started: Preparing and building [Linux Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.1/docs/PrepareForBuildLinux.md) or [Mac OS Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.1/docs/PrepareForBuildMac.md)**
+**Getting Started: Preparing and building [Linux Guide] (https://github.com/PAC-ROM/android_vendor_pac/blob/pac-5.1/docs/PrepareForBuildLinux.md) or [Mac OS Guide] (https://github.com/PAC-ROM/android_vendor_pac/blob/pac-5.1/docs/PrepareForBuildMac.md)**
 
 **Device isn't supported? Not a problem! [Read] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.1/docs/BecomeAMaintainer.md)**
