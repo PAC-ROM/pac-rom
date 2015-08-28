@@ -2,7 +2,7 @@
 
 [![Alt text](http://www.pac-rom.com/images/linksbar/pac.png "PAC Homepage ")](http://www.pac-rom.com)
 [![Alt text](http://www.pac-rom.com/images/linksbar/19.png "Vendor Repositories ")](https://github.com/Pinky-Inky-and-Clyde)
-[![Alt text](http://www.pac-rom.com/images/linksbar/17.png "ROM Source ")](https://github.com/PAC-man)
+[![Alt text](http://www.pac-rom.com/images/linksbar/17.png "ROM Source ")](https://github.com/PAC-ROM)
 [![Alt text](http://www.pac-rom.com/images/linksbar/18.png "Device and Kernel Repositories ")](https://github.com/Split-Screen)
 [![Alt text](http://www.pac-rom.com/images/linksbar/6.png "Gerrit Review ")](http://review.pac-rom.com)
 [![Alt text](http://www.pac-rom.com/images/linksbar/9.png "Jenkins Build System ")](http://jenkins.pac-rom.com)
@@ -27,4 +27,4 @@
 
 **Getting Started: Preparing and building [Linux Guide] (https://github.com/PAC-ROM/android_vendor_pac/blob/pac-5.1/docs/PrepareForBuildLinux.md) or [Mac OS Guide] (https://github.com/PAC-ROM/android_vendor_pac/blob/pac-5.1/docs/PrepareForBuildMac.md)**
 
-**Device isn't supported? Not a problem! [Read] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.1/docs/BecomeAMaintainer.md)**
+**Device isn't supported? Not a problem! [Read] (https://github.com/PAC-ROM/android_vendor_pac/blob/pac-5.1/docs/BecomeAMaintainer.md)**
