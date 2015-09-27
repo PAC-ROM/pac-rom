@@ -1,5 +1,5 @@
 [gerrit]
 host=review.pac-rom.com
 port=29418
-project=pacman.git
+project=pac-rom.git
 defaultbranch=pac-5.0
