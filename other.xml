@@ -72,8 +72,10 @@
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" />
   <project path="external/koush/ion" name="ion" remote="cm" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="cm" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="cm" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" remote="cm" />
+  <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="cm" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" />
   <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="cm" />
   <project path="external/libppp" name="android_external_libppp" remote="cm" />
