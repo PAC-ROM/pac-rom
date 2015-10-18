@@ -63,7 +63,6 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" remote="aosp" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="aosp" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
@@ -416,7 +415,7 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="pac" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="pac" />
   <project path="external/bash" name="android_external_bash" remote="pac" />
-  <project path="external/boringssl" name="android_external_boringssl" remote="pac" />
+  <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="pac" />
   <project path="external/brctl" name="android_external_brctl" remote="pac" />
   <project path="external/busybox" name="android_external_busybox" remote="pac" />
   <project path="external/curl" name="android_external_curl" remote="pac" />
