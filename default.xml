@@ -448,6 +448,7 @@
   <project path="external/libtruezip" name="android_external_libtruezip" remote="pac" />
   <project path="external/lsof" name="android_external_lsof" remote="pac" />
   <project path="external/lzo" name="android_external_lzo" remote="pac" />
+  <project path="external/mm-dash" name="android_external_mm-dash" remote="pac" />
   <project path="external/nano" name="android_external_nano" remote="pac" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pac" />
   <project path="external/okhttp" name="android_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="pac" />
