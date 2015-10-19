@@ -405,7 +405,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ss" />
   <project path="external/android-mock" name="android_external_android-mock" remote="pac" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="pac" />
-  <project path="external/android/support-prebuilt" name="external_android_support-prebuilt" remote="pac" />
+  <project path="external/android/support-prebuilt" name="android_external_android_support-prebuilt" remote="pac" />
   <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="pac" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="pac" />
