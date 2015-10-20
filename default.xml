@@ -87,13 +87,11 @@
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" remote="aosp" />
-  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="aosp" />
   <project path="external/embunit" name="platform/external/embunit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" remote="aosp" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" remote="aosp" />
@@ -420,7 +418,9 @@
   <project path="external/dropbear" name="android_external_dropbear" remote="pac" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="pac" />
   <project path="external/ebtables" name="android_external_ebtables" remote="pac" />
+  <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="pac" />
   <project path="external/exfat" name="android_external_exfat" remote="pac" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="pac" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="pac" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk-cw-fs" remote="pac" />
   <project path="external/fuse" name="android_external_fuse" remote="pac" />
