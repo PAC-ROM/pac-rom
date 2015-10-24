@@ -31,9 +31,6 @@
            sync-j="8" />
 
   <!-- AOSP -->
-  <project path="build" name="platform/build" groups="pdk" remote="aosp">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bionic" name="platform/bionic" groups="pdk" remote="aosp" />
@@ -99,7 +96,6 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="aosp" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="aosp" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" remote="aosp" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -237,9 +233,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="aosp" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" />
@@ -327,18 +321,9 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="aosp" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" remote="aosp" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" remote="aosp" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" remote="aosp" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" remote="aosp" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" remote="aosp" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" remote="aosp" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" remote="aosp" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" remote="aosp" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
@@ -346,8 +331,6 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" remote="aosp" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" remote="aosp" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" remote="aosp" />
@@ -465,14 +448,11 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" remote="aosp" />
-  <project path="system/core" name="platform/system/core" groups="pdk" remote="aosp" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" />
   <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
@@ -489,6 +469,54 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <!-- PAC-ROM -->
+  <project path="build" name="android_build" groups="pdk" remote="pac">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ss" />
+  <project path="external/busybox" name="android_external_busybox" remote="pac" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="pac" />
+  <project path="external/exfat" name="android_external_exfat" remote="pac" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="pac" />
+  <project path="external/mm-dash" name="android_external_mm-dash" remote="pac" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pac" />
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="pac" />
+  <project path="external/skia" name="android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="pac" />
+  <project path="hardware/pac" name="android_hardware_pac" remote="pac" />
+  <project path="hardware/pacrom" name="android_hardware_pacrom" remote="pac" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="pac" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="pac" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="pac" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="pac" revision="pac-6.0-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="pac" revision="pac-6.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="pac" revision="pac-6.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="pac" revision="pac-6.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="pac" revision="pac-6.0-caf-8994" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="pac" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="pac" revision="pac-6.0-caf" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="pac" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="pac" />
+  <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="pac" revision="pac-6.0-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="pac" revision="pac-6.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="pac" revision="pac-6.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="pac" revision="pac-6.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="pac" revision="pac-6.0-caf-8994" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom" remote="pac" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="pac" />
+  <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="pac" />
+  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="pac" revision="pac-6.0-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" remote="pac" revision="pac-6.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="pac" revision="pac-6.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="pac" revision="pac-6.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="pac" revision="pac-6.0-caf-8994" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="pac" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="pac" revision="pac-6.0-caf" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="pac" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="pac" revision="pac-6.0-caf" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="pac" />
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="pac" />
+  <project path="system/extras/su" name="android_system_extras_su" remote="pac" />
+  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="pac" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="pac" />
   <project path="pac-rom" name="pac-rom" remote="pac" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
