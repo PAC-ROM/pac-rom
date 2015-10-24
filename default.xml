@@ -326,7 +326,6 @@
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" remote="aosp" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" remote="aosp" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
@@ -473,6 +472,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="pac" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="pac" />
   <project path="external/exfat" name="android_external_exfat" remote="pac" />
+  <project path="external/fuse" name="android_external_fuse" remote="pac" />
   <project path="external/libncurses" name="android_external_libncurses" remote="pac" />
   <project path="external/mm-dash" name="android_external_mm-dash" remote="pac" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pac" />
