@@ -266,8 +266,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="aosp" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -276,7 +274,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="aosp" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -481,6 +478,9 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pac" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="pac" />
   <project path="external/skia" name="android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="pac" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pac" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pac" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pac" />
   <project path="hardware/pac" name="android_hardware_pac" remote="pac" />
   <project path="hardware/pacrom" name="android_hardware_pacrom" remote="pac" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="pac" />
