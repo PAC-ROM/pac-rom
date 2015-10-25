@@ -337,7 +337,6 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" remote="aosp" />
@@ -360,7 +359,6 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" remote="aosp" />
@@ -509,6 +507,8 @@
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="pac" revision="pac-6.0-caf" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" groups="pdk-fs" remote="pac" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" groups="pdk-fs" remote="pac" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="pac" />
