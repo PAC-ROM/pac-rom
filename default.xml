@@ -443,7 +443,6 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
-  <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" />
   <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" />
@@ -516,6 +515,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="pac" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="pac" />
   <project path="system/extras/su" name="android_system_extras_su" remote="pac" />
+  <project path="system/media" name="android_system_media" groups="pdk" remote="pac" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="pac" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="pac" />
   <project path="pac-rom" name="pac-rom" remote="pac" />
