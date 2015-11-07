@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.0_r1" />
+           revision="refs/tags/android-6.0.0_r26" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -393,10 +393,7 @@
   <project path="external/htop" name="android_external_htop" remote="pac" />
   <project path="external/iproute2" name="android_external_iproute2" groups="pdk" remote="pac" />
   <project path="external/iptables" name="android_external_iptables" groups="pdk-cw-fs,pdk-fs" remote="pac" />
-  <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" remote="pac" />
   <project path="external/jpeg" name="android_external_jpeg" groups="pdk" remote="pac" />
-  <project path="external/jsr308" name="android_external_jsr308" remote="pac" />
-  <project path="external/jsr330" name="android_external_jsr330" remote="pac" />
   <project path="external/koush/AndroidAsync" name="android_external_koush_AndroidAsync" remote="pac" />
   <project path="external/koush/ion" name="android_external_koush_ion" remote="pac" />
   <project path="external/libncurses" name="android_external_libncurses" remote="pac" />
@@ -422,8 +419,6 @@
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pac" />
   <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="pac" />
   <project path="external/spongycastle" name="android_external_spongycastle" groups="pdk" remote="pac" />
-  <project path="external/square/dagger" name="android_external_square_dagger" remote="pac" />
-  <project path="external/square/javawriter" name="android_external_square_javawriter" remote="pac" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="pac" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="pac" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="pac" />
