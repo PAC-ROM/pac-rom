@@ -173,7 +173,6 @@
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" remote="aosp" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -418,7 +417,6 @@
   <project path="external/nano" name="android_external_nano" remote="pac" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pac" />
   <project path="external/okhttp" name="android_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="pac" />
-  <project path="external/pigz" name="android_external_pigz" remote="pac" />
   <project path="external/protobuf-c" name="android_external_protobuf-c" remote="pac" />
   <project path="external/rsync" name="android_external_rsync" remote="pac" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="pac" />
