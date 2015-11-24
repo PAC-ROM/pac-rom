@@ -359,12 +359,10 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
 
-  <!-- OmniROM (for TWRP) -->
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="omni" revision="android-6.0" />
-
   <!-- PAC-ROM -->
   <project path="art" name="android_art" groups="pdk" remote="pac" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="pac" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pac" />
   <project path="build" name="android_build" groups="pdk" remote="pac">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
