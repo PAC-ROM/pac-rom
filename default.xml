@@ -481,7 +481,6 @@
   <project path="hardware/qcom/media-caf-msm8960" name="android_hardware_qcom_media" remote="pac" revision="pac-6.0-caf-8960" />
   <project path="hardware/qcom/media-caf-msm8974" name="android_hardware_qcom_media" remote="pac" revision="pac-6.0-caf-8974" />
   <project path="hardware/qcom/media-caf-msm8994" name="android_hardware_qcom_media" remote="pac" revision="pac-6.0-caf-8994" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom" remote="pac" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="pac" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="pac" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="pac" revision="pac-6.0-caf" />
@@ -492,9 +491,6 @@
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh"/>
   </project>
-  <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="pac" />
-  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="pac" />
-  <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="pac" />
   <!-- PAC-ROM -->
 
 </manifest>
