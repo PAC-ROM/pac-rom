@@ -308,7 +308,6 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" remote="aosp" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" />
@@ -460,6 +459,7 @@
   <project path="frameworks/native-caf" name="android_frameworks_native" groups="pdk" remote="pac" revision="pac-6.0-caf" />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="pac" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="pac" />
+  <project path="hardware/invensense" name="android_hardware_invensense" groups="invensense" remote="pac" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="pac" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="pac" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="pac" />
