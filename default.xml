@@ -446,7 +446,7 @@
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="frameworks/opt/chips" name="android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="pac" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_net_telephony" groups="pdk" remote="pac" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="pac" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="pac" />
