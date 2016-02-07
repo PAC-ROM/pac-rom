@@ -513,7 +513,6 @@
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="pac" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pac" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="pac" />
-  <project path="system/extras/su" name="android_system_extras_su" remote="pac" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="pac" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="pac" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="pac" />
