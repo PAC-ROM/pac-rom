@@ -395,6 +395,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="pac" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ss" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="pac" />
   <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="pac" />
