@@ -42,7 +42,7 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" />
+  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk,notdefault" remote="aosp" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" />
   <project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" />
@@ -281,7 +281,7 @@
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" remote="cm" />
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" remote="cm" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="cm" />
-  <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" remote="cm" />
+  <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk,notdefault" remote="cm" />
   <project path="device/google/atv" name="android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" remote="cm" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" />
   <project path="external/android-clat" name="android_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="cm" />
