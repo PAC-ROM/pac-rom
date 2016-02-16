@@ -283,7 +283,6 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="cm" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk,notdefault" remote="cm" />
   <project path="device/google/atv" name="android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" remote="cm" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" />
   <project path="external/android-clat" name="android_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/android-mock" name="android_external_android-mock" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
@@ -567,6 +566,7 @@
   <project path="build" name="android_build" groups="pdk" remote="pac" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ss" />
   <project path="pac-rom" name="pac-rom" remote="pac" />
   <project path="vendor/cmsdk" name="android_vendor_cmsdk" remote="pac" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" >
