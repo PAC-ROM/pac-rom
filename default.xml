@@ -558,7 +558,6 @@
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="cm" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
-  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cm" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="cm" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="cm" />
@@ -569,6 +568,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="pac-rom" name="pac-rom" remote="pac" />
+  <project path="vendor/cmsdk" name="android_vendor_cmsdk" remote="pac" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh"/>
   </project>
