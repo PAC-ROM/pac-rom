@@ -345,7 +345,7 @@
 <!-- BEGIN PACROM -->
   <project path="art" name="android_art" groups="pdk" remote="pac" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="pac" />
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk-cw-fs" remote="cm" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk-cw-fs" remote="pac" />
   <project path="build" name="android_build" groups="pdk" remote="pac" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -567,5 +567,5 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="pac" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="pac" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="pac" />
-<!-- END PAC -->
+<!-- END PACROM -->
 </manifest>
