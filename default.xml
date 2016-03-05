@@ -38,6 +38,7 @@
 <!-- BEGIN AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
+  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -337,7 +338,6 @@
   <project path="build" name="android_build" groups="pdk" remote="pac" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ss" />
   <project path="external/android-clat" name="android_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="pac" />
