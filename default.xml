@@ -194,7 +194,6 @@
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" remote="aosp" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" remote="aosp" />
-  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" remote="aosp" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" remote="aosp" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
@@ -395,6 +394,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pac" />
   <project path="external/okhttp" name="android_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="external/p7zip" name="android_external_p7zip" remote="pac" />
+  <project path="external/pdfium" name="android_external_pdfium" groups="pdk" remote="pac" />
   <project path="external/pigz" name="android_external_pigz" remote="pac" />
   <project path="external/powertop" name="android_external_powertop" remote="pac" />
   <project path="external/protobuf-c" name="android_external_protobuf-c" remote="pac" />
