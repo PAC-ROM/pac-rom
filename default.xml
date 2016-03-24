@@ -530,6 +530,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="pac" />
+  <project path="packages/providers/WeatherProvider" name="android_packages_providers_WeatherProvider" remote="pac" />
   <project path="packages/services/LiveLockScreenService" name="android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pac" />
