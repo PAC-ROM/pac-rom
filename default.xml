@@ -370,6 +370,7 @@
   <project path="external/iproute2" name="android_external_iproute2" groups="pdk" remote="pac" />
   <project path="external/iptables" name="android_external_iptables" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="external/jpeg" name="android_external_jpeg" groups="pdk" remote="pac" />
+  <project path="external/json-c" name="android_external_json-c" remote="pac" />
   <project path="external/koush/AndroidAsync" name="android_external_koush_AndroidAsync" remote="pac" />
   <project path="external/koush/ion" name="android_external_koush_ion" remote="pac" />
   <project path="external/libavc" name="android_external_libavc" groups="pdk" remote="pac" />
