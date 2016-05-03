@@ -434,9 +434,7 @@
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="cm" />
-  <project path="packages/apps/CMBugReport" name="android_packages_apps_CMBugreport" remote="cm" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
-  <project path="packages/apps/CMUpdater" name="android_packages_apps_CMUpdater" remote="cm" />
   <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="cm" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" groups="pdk-fs" remote="cm" />
@@ -526,6 +524,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pac" />
+  <project path="pac-rom" name="pac-rom" remote="pac" />
   <project path="packages/apps/PACConsole" name="android_packages_apps_PACConsole" remote="pac" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="pac" />
   <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" clone-depth="1" remote="pac" />
