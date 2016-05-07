@@ -510,8 +510,9 @@
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="cm" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="android_packages_apps_WundergroundWeatherProvider" remote="cm" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="android_packages_apps_OpenWeatherMapProvider" remote="cm" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="android_packages_apps_WundergroundWeatherProvider" remote="cm" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="android_packages_apps_YahooWeatherProvider" remote="cm" />
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN HALS -->
