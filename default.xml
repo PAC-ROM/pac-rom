@@ -272,6 +272,7 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="cm" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" remote="cm" />
   <project path="device/google/atv" name="android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" remote="cm" />
+  <project path="external/ahbottomnavigation" name="android_external_ahbottomnavigation" remote="cm" />
   <project path="external/android-clat" name="android_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/android-mock" name="android_external_android-mock" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
@@ -286,6 +287,7 @@
   <project path="external/bouncycastle" name="android_external_bouncycastle" groups="pdk" remote="cm" />
   <project path="external/brctl" name="android_external_brctl" remote="cm" />
   <project path="external/bzip2" name="android_external_bzip2" groups="pdk" remote="cm" />
+  <project path="external/cmsdk-api-coverage" name="android_external_cmsdk-api-coverage" remote="cm" />
   <project path="external/connectivity" name="android_external_connectivity" remote="cm" />
   <project path="external/curl" name="android_external_curl" remote="cm" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="cm" />
