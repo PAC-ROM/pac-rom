@@ -64,7 +64,6 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
@@ -528,6 +527,7 @@
   <project path="build" name="android_build" groups="pdk" remote="pac" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="pac" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pac" />
   <project path="pac-rom" name="pac-rom" remote="pac" />
   <project path="packages/apps/PACConsole" name="android_packages_apps_PACConsole" remote="pac" />
