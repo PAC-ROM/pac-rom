@@ -461,7 +461,6 @@
   <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="cm" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/Screencast" name="android_packages_apps_Screencast" remote="cm" />
-  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="cm" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" groups="pdk-fs" remote="cm" />
@@ -532,6 +531,7 @@
   <project path="pac-rom" name="pac-rom" remote="pac" />
   <project path="packages/apps/PACConsole" name="android_packages_apps_PACConsole" remote="pac" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="pac" />
+  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="pac" />
   <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" clone-depth="1" remote="pac" />
   <project path="vendor/cmsdk" name="android_vendor_cmsdk" remote="pac" />
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" >
