@@ -17,6 +17,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="cm" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="cm" />
   <project path="cts" name="android_cts" groups="cts,pdk-cw-fs" remote="cm" />
+  <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs" remote="cm" />
   <project path="development" name="android_development" groups="pdk-cw-fs" remote="cm" />
   <project path="device/common" name="android_device_common" groups="pdk-cw-fs" remote="cm" />
   <project path="device/generic/arm64" name="android_device_generic_arm64" groups="pdk" remote="cm" />
@@ -26,6 +27,7 @@
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" remote="cm" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" />
   <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" remote="cm" />
+  <project path="external/aac" name="android_external_aac" groups="pdk" remote="cm" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" />
   <project path="external/android/support-prebuilt" name="external_android_support-prebuilt" remote="cm" revision="master" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
@@ -43,6 +45,7 @@
   <project path="external/chromium_org/third_party/boringssl/src" name="android_external_chromium_org_third_party_boringssl_src" remote="cm" />
   <project path="external/chromium_org/v8" name="android_external_chromium_org_v8" remote="cm" />
   <project path="external/connectivity" name="android_external_connectivity" remote="cm" />
+  <project path="external/conscrypt" name="android_external_conscrypt" groups="pdk-cw-fs" remote="cm" />
   <project path="external/curl" name="android_external_curl" remote="cm" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs" remote="cm" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" groups="pdk" remote="cm" />
@@ -64,6 +67,7 @@
   <project path="external/iproute2" name="android_external_iproute2" groups="pdk" remote="cm" />
   <project path="external/iptables" name="android_external_iptables" groups="pdk-cw-fs" remote="cm" />
   <project path="external/jarjar" name="android_external_jarjar" groups="pdk" remote="cm" />
+  <project path="external/jhead" name="android_external_jhead" groups="pdk" remote="cm" />
   <project path="external/jpeg" name="android_external_jpeg" groups="pdk" remote="cm" />
   <project path="external/jsr305" name="android_external_jsr305" groups="pdk-cw-fs,tradefed" remote="cm" />
   <project path="external/jsr308" name="android_external_jsr308" remote="cm" />
@@ -120,6 +124,7 @@
   <project path="external/tcpdump" name="android_external_tcpdump" groups="pdk,pdk-cw-fs" remote="cm" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="cm" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="cm" />
+  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="cm" />
   <project path="external/unrar" name="android_external_unrar" remote="cm" />
   <project path="external/vim" name="android_external_vim" remote="cm" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="cm" />
