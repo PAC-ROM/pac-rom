@@ -492,6 +492,7 @@
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" groups="pdk-fs" remote="cm" />
   <project path="packages/services/CMAudioService" name="android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="packages/services/LiveLockScreenService" name="android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" remote="cm" />
+  <project path="packages/services/WeatherService" name="android_packages_services_WeatherService" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="cm" />
