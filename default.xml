@@ -338,7 +338,6 @@
   <project path="external/lzma" name="android_external_lzma" groups="pdk" remote="cm" />
   <project path="external/lzo" name="android_external_lzo" remote="cm" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="cm" />
-  <project path="external/mm-dash" name="android_external_mm-dash" remote="cm" />
   <project path="external/nano" name="android_external_nano" remote="cm" />
   <project path="external/nist-sip" name="android_external_nist-sip" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" />
